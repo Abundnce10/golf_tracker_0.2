@@ -1,1 +1,1 @@
-== Rails Template with User Auth
+# Rails Template with User Auth
