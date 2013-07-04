@@ -1,3 +1,4 @@
-# Rails Template with User Auth
+# Golf Tracker v0.2
 
-This is a boilerplate app with basic user authentication (signup, signin, signout).
+Track your golf round using the Golf Tracker web app and gain insight into areas that will give you the most improvement.  Observe how others tend to perform on a given hole or leave yourself a reminder for the next time you play a hole.
+
