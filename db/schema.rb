@@ -11,10 +11,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130712052418) do
+ActiveRecord::Schema.define(:version => 20130712062547) do
+
+  create_table "addresses", :force => true do |t|
+    t.integer  "state_id"
+    t.string   "street"
+    t.string   "city"
+    t.integer  "zipcode"
+    t.string   "latitude"
+    t.string   "longitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "genders", :force => true do |t|
     t.string   "gender_type"
+    t.string   "gender_tees"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end

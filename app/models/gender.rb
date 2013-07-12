@@ -1,0 +1,14 @@
+# == Schema Information
+#
+# Table name: genders
+#
+#  id          :integer          not null, primary key
+#  gender_type :string(255)
+#  gender_tees :string(255)
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+class Gender < ActiveRecord::Base
+  attr_accessible :gender_tees, :gender_type
+end
