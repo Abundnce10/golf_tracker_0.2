@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130713230423) do
+ActiveRecord::Schema.define(:version => 20130714010551) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -20,6 +20,15 @@ ActiveRecord::Schema.define(:version => 20130713230423) do
     t.integer  "zipcode"
     t.string   "latitude"
     t.string   "longitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "course_reviews", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "course_id"
+    t.integer  "rating"
+    t.text     "review"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -63,6 +72,16 @@ ActiveRecord::Schema.define(:version => 20130713230423) do
     t.string   "seasonality"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "slope_ratings", :force => true do |t|
+    t.integer  "tee_id"
+    t.integer  "gender_id"
+    t.integer  "course_id"
+    t.integer  "slope"
+    t.float    "rating"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "states", :force => true do |t|
