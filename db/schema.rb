@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130712062547) do
+ActiveRecord::Schema.define(:version => 20130713230423) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -24,9 +24,43 @@ ActiveRecord::Schema.define(:version => 20130712062547) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "course_types", :force => true do |t|
+    t.string   "course_type"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "courses", :force => true do |t|
+    t.integer  "address_id"
+    t.integer  "course_type_id"
+    t.integer  "fee_id"
+    t.integer  "season_id"
+    t.string   "website"
+    t.string   "phone_number"
+    t.integer  "number_of_holes"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  create_table "fees", :force => true do |t|
+    t.float    "weekday_18"
+    t.float    "weekday_9"
+    t.float    "weekend_18"
+    t.float    "weekend_9"
+    t.float    "twilight"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "genders", :force => true do |t|
     t.string   "gender_type"
     t.string   "gender_tees"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "seasons", :force => true do |t|
+    t.string   "seasonality"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
