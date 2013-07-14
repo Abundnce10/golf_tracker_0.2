@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130714011805) do
+ActiveRecord::Schema.define(:version => 20130714012828) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -66,6 +66,39 @@ ActiveRecord::Schema.define(:version => 20130714011805) do
     t.string   "gender_tees"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "hole_notes", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "round_id"
+    t.integer  "hole_id"
+    t.text     "note"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "holes", :force => true do |t|
+    t.integer  "course_id"
+    t.integer  "tee_id"
+    t.integer  "gender_id"
+    t.integer  "number"
+    t.integer  "distance"
+    t.integer  "par"
+    t.integer  "handicap"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "played_holes", :force => true do |t|
+    t.integer  "round_id"
+    t.integer  "hole_id"
+    t.integer  "fairway_id"
+    t.integer  "GIR"
+    t.integer  "putts"
+    t.integer  "bunker"
+    t.integer  "OB"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "round_notes", :force => true do |t|
