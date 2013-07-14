@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130714010551) do
+ActiveRecord::Schema.define(:version => 20130714011805) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -68,6 +68,22 @@ ActiveRecord::Schema.define(:version => 20130714010551) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "round_notes", :force => true do |t|
+    t.integer  "round_id"
+    t.text     "note"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "rounds", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "course_id"
+    t.integer  "tee_id"
+    t.date     "date_played"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "seasons", :force => true do |t|
     t.string   "seasonality"
     t.datetime "created_at",  :null => false
@@ -89,6 +105,13 @@ ActiveRecord::Schema.define(:version => 20130714010551) do
     t.string   "abbreviation"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+  end
+
+  create_table "tees", :force => true do |t|
+    t.string   "tee_type"
+    t.string   "color"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "users", :force => true do |t|
