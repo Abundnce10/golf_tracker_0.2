@@ -11,4 +11,7 @@
 
 class RoundNote < ActiveRecord::Base
   attr_accessible :note, :round_id
+
+  validates :round_id, :note, :presence => true
+  
 end

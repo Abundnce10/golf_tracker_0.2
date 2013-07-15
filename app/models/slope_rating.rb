@@ -14,4 +14,9 @@
 
 class SlopeRating < ActiveRecord::Base
   attr_accessible :course_id, :gender_id, :rating, :slope, :tee_id
+
+  validates :tee_id, :gender_id, :course_id, :presence => true
+  validates :slope, :numericality => { :only_integer => true }
+  validates :rating, :format => { :with => /^\d+??(?:\.\d{0,1})?$/ }
+
 end
