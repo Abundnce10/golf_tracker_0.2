@@ -13,4 +13,10 @@
 
 class Round < ActiveRecord::Base
   attr_accessible :course_id, :date_played, :tee_id, :user_id
+
+  validates :user_id, :course_id, :tee_id, :presence => true
+
+  validates_date :date_played
+
+
 end

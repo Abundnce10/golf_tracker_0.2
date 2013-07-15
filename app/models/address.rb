@@ -15,4 +15,10 @@
 
 class Address < ActiveRecord::Base
   attr_accessible :city, :latitude, :longitude, :state_id, :street, :zipcode
+
+
+  validates :street, :city, :zipcode, presence: true
+  validates :zipcode, :numericality => { :only_integer => true,
+                                         :greater_than => 10000,
+                                         :less_than    => 100000 }
 end

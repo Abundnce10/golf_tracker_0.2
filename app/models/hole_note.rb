@@ -13,4 +13,7 @@
 
 class HoleNote < ActiveRecord::Base
   attr_accessible :hole_id, :note, :round_id, :user_id
+
+  validates :user_id, :hole_id, :note, :presence => true
+  
 end

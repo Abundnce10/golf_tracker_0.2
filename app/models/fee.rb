@@ -14,4 +14,7 @@
 
 class Fee < ActiveRecord::Base
   attr_accessible :twilight, :weekday_18, :weekday_9, :weekend_18, :weekend_9
+
+  ## presence not necessary if unknown
+  ## maximum of 2 decimal places
 end

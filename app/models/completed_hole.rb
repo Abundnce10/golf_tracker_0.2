@@ -11,4 +11,9 @@
 
 class CompletedHole < ActiveRecord::Base
   attr_accessible :holes_completed, :round_id
+
+  validates :round_id, :presence => true
+  validates :holes_completed, :presence => true,
+                              :numericality => { :only_integer => true,
+                                                 :less_than => 109 }
 end
