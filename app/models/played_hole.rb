@@ -18,6 +18,10 @@
 class PlayedHole < ActiveRecord::Base
   attr_accessible :GIR, :OB, :bunker, :fairway_id, :hole_id, :putts, :round_id
 
+  belongs_to :fairway
+  belongs_to :hole
+  belongs_to :round, counter_cache: true, dependent: :destroy
+
   validates :round_id, :hole_id, :fairway_id, :putts, :strokes, :presence => true
   validates :putts, :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0,

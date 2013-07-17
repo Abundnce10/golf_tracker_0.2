@@ -10,4 +10,6 @@
 
 class CourseType < ActiveRecord::Base
   attr_accessible :course_type
+
+  has_many :courses
 end

@@ -14,6 +14,9 @@
 class CourseReview < ActiveRecord::Base
   attr_accessible :course_id, :rating, :review, :user_id
 
+  belongs_to :course
+  belongs_to :user, dependent: :destroy
+
   validates :course_id, :rating, :user_id, :presence => true
   validates :rating, :numericality => { :only_integer => true,
                                         :less_than => 6,

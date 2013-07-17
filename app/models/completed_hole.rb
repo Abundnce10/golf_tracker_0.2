@@ -12,6 +12,8 @@
 class CompletedHole < ActiveRecord::Base
   attr_accessible :holes_completed, :round_id
 
+  belongs_to :round, counter_cache: true, dependent: :destroy
+
   validates :round_id, :presence => true
   validates :holes_completed, :presence => true,
                               :numericality => { :only_integer => true,

@@ -11,4 +11,8 @@
 
 class Tee < ActiveRecord::Base
   attr_accessible :color, :tee_type
+
+  has_many :holes
+  has_many :rounds
+  has_many :slope_ratings
 end

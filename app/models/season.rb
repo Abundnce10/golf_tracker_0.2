@@ -10,4 +10,6 @@
 
 class Season < ActiveRecord::Base
   attr_accessible :seasonality
+
+  has_many :courses
 end

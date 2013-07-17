@@ -10,4 +10,6 @@
 
 class Fairway < ActiveRecord::Base
   attr_accessible :fairway_accuracy
+
+  has_many :played_holes
 end
