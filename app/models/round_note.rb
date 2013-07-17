@@ -12,7 +12,7 @@
 class RoundNote < ActiveRecord::Base
   attr_accessible :note, :round_id
 
-  belongs_to :round, counter_cache: true, dependent: :destroy
+  belongs_to :round, dependent: :destroy
 
   validates :round_id, :note, :presence => true
 end

@@ -16,7 +16,7 @@
 class Address < ActiveRecord::Base
   attr_accessible :city, :latitude, :longitude, :state_id, :street, :zipcode
 
-  belongs_to :state, counter_cache: true
+  belongs_to :state
   has_many   :courses
 
   validates :street, :city, :zipcode, presence: true

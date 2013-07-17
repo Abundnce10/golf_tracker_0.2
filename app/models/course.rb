@@ -12,10 +12,11 @@
 #  number_of_holes :integer
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
+#  name            :string(255)
 #
 
 class Course < ActiveRecord::Base
-  attr_accessible :address_id, :course_type_id, :fee_id, :number_of_holes, :phone_number, :season_id, :website
+  attr_accessible :address_id, :course_type_id, :fee_id, :number_of_holes, :phone_number, :season_id, :website, :name
 
   belongs_to :address
   belongs_to :course_type
@@ -26,6 +27,6 @@ class Course < ActiveRecord::Base
   has_many   :rounds
   has_many   :slope_ratings
 
-  validates :address_id, :course_type_id, :fee_id, :season_id, :presence => true
+  validates :address_id, :course_type_id, :fee_id, :season_id, :name, :presence => true
   validates :number_of_holes, :numericality => { :only_integer => true }
 end

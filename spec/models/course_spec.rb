@@ -12,6 +12,7 @@
 #  number_of_holes :integer
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
+#  name            :string(255)
 #
 
 require 'spec_helper'

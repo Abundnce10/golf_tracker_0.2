@@ -13,3 +13,10 @@ class Fairway < ActiveRecord::Base
 
   has_many :played_holes
 end
+
+
+#1: Straight
+#2: Left
+#3: Far Left
+#4: Right
+#5: Far Right

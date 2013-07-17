@@ -14,9 +14,9 @@
 class HoleNote < ActiveRecord::Base
   attr_accessible :hole_id, :note, :round_id, :user_id
 
-  belongs_to :hole, counter_cache: true, dependent: :destroy
+  belongs_to :hole, dependent: :destroy
   belongs_to :round
-  belongs_to :user, counter_cache: true, dependent: :destroy
+  belongs_to :user, dependent: :destroy
 
   validates :user_id, :hole_id, :note, :presence => true 
 end

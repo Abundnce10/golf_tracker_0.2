@@ -20,7 +20,7 @@ class Round < ActiveRecord::Base
   has_many   :round_notes
   belongs_to :course
   belongs_to :tee
-  belongs_to :user, counter_cache: true, dependent: :destroy
+  belongs_to :user, dependent: :destroy
 
   validates :user_id, :course_id, :tee_id, :presence => true
   validates_date :date_played

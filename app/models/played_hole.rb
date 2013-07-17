@@ -20,9 +20,9 @@ class PlayedHole < ActiveRecord::Base
 
   belongs_to :fairway
   belongs_to :hole
-  belongs_to :round, counter_cache: true, dependent: :destroy
+  belongs_to :round, dependent: :destroy
 
-  validates :round_id, :hole_id, :fairway_id, :putts, :strokes, :presence => true
+  validates :round_id, :hole_id, :putts, :strokes, :presence => true
   validates :putts, :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0,
                                          :less_than    => 10 }
@@ -31,12 +31,15 @@ class PlayedHole < ActiveRecord::Base
                                          :less_than    => 20 }
   validates :GIR, :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0,
-                                         :less_than_or_equal_to    => 1 }                                         
+                                         :less_than_or_equal_to    => 1 },
+                  :allow_nil => true                                       
   validates :bunker, :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0,
-                                         :less_than_or_equal_to    => 1 }
+                                         :less_than_or_equal_to    => 1 },
+                      :allow_nil => true
   validates :OB, :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0,
-                                         :less_than_or_equal_to    => 1 }
+                                         :less_than_or_equal_to    => 1 },
+                 :allow_nil => true
 
 end
