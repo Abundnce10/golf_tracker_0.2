@@ -14,14 +14,27 @@ namespace :import do
 			sleep 0.4
 		end
 
-		puts "Import complete."
+		puts "Import complete.\n"
 		## To run
 		## $ bundle exec rake import:states
 	end
 
 
 	task :genders => :environment do
-		genders = [["Male", "Female"]]
+		
+		genders = ["Male", "Female"]
+
+		puts "Importing genders..."
+
+		genders.each do |gender|
+			@gender = Gender.create({gender_type: gender})
+			puts "Added #{gender}"
+			sleep 1
+		end
+
+		puts "Import complete.\n"
 	end
+
+	
 
 end

@@ -9,8 +9,9 @@
 #
 
 class Gender < ActiveRecord::Base
-  attr_accessible :gender_tees, :gender_type
+  attr_accessible :gender_type
 
   has_many :holes
   has_many :slope_ratings
+
 end
