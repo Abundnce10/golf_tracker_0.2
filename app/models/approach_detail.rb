@@ -15,8 +15,7 @@
 #
 
 class ApproachDetail < ActiveRecord::Base
-  attr_accessible :distance_from_hole, :in_the_hole, :on_green, :played_hole_id, :score_type_id
+  attr_accessible :distance_from_hole, :in_the_hole, :on_green, :played_hole_id
 
-  belongs_to :score_type
   belongs_to :played_hole
 end

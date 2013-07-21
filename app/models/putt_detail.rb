@@ -12,8 +12,7 @@
 #
 
 class PuttDetail < ActiveRecord::Base
-  attr_accessible :distance_from_hole, :make, :played_hole_id, :score_type_id
+  attr_accessible :distance_from_hole, :make, :played_hole_id
 
-  belongs_to :score_type
   belongs_to :played_hole
 end

@@ -35,6 +35,20 @@ namespace :import do
 		puts "Import complete.\n"
 	end
 
-	
+	task :fairways => :environment do 
+
+		fairways = ["Middle", "Long Middle", "Short Middle", "Long Right", "Right", "Short Right", "Long Far Right", "Far Right", "Short Far Right", "Long Left", "Left", "Short Left", "Long Far Left", "Far Left", "Short Far Left"]
+
+		puts "Importing Fairway locations for a drive off the tee..."
+
+		fairways.each do |f|
+			@fairway = Fairway.create({fairway_accuracy: f})
+			puts "Added #{f}"
+			sleep 1
+		end
+
+		puts "Import complete.\n"		
+
+	end
 
 end
