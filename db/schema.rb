@@ -24,13 +24,6 @@ ActiveRecord::Schema.define(:version => 20130717044650) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "completed_holes", :force => true do |t|
-    t.integer  "round_id"
-    t.integer  "holes_completed"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-  end
-
   create_table "course_reviews", :force => true do |t|
     t.integer  "user_id"
     t.integer  "course_id"
