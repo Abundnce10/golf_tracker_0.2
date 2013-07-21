@@ -14,6 +14,7 @@
 class Round < ActiveRecord::Base
   attr_accessible :course_id, :date_played, :tee_id, :user_id
 
+  has_one    :round_summary
   has_many   :hole_notes
   has_many   :played_holes
   has_many   :round_notes

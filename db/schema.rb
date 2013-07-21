@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130721195309) do
+ActiveRecord::Schema.define(:version => 20130721210151) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(:version => 20130721195309) do
     t.boolean  "in_the_hole"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.boolean  "OB"
+    t.boolean  "sand"
   end
 
   create_table "course_reviews", :force => true do |t|
@@ -68,6 +70,8 @@ ActiveRecord::Schema.define(:version => 20130721195309) do
     t.boolean  "on_fairway"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.boolean  "OB"
+    t.boolean  "sand"
   end
 
   create_table "fairways", :force => true do |t|

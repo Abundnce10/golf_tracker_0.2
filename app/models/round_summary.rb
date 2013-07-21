@@ -24,4 +24,9 @@
 
 class RoundSummary < ActiveRecord::Base
   attr_accessible :GIRs_hit, :GIRs_possible, :OBs, :back_9_putts, :back_9_strokes, :fairways_hit, :fairways_possible, :front_9_putts, :front_9_strokes, :round_id, :sand_shots, :score_summary_id, :scrambling_percentage, :total_putts, :total_strokes
+
+  belongs_to :score_summary
+  belongs_to :round
+
+  
 end

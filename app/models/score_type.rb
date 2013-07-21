@@ -11,4 +11,8 @@
 
 class ScoreType < ActiveRecord::Base
   attr_accessible :score_relative_to_par, :score_type
+
+  belongs_to :putt_detail
+  belongs_to :approach_detail
+  belongs_to :drive_detail
 end

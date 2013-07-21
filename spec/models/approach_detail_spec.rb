@@ -10,6 +10,8 @@
 #  in_the_hole        :boolean
 #  created_at         :datetime         not null
 #  updated_at         :datetime         not null
+#  OB                 :boolean
+#  sand               :boolean
 #
 
 require 'spec_helper'
