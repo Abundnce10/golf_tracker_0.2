@@ -4,7 +4,7 @@
 #
 #  id                 :integer          not null, primary key
 #  played_hole_id     :string(255)
-#  score_type_id      :integer
+#  shot_number        :integer
 #  distance_from_hole :integer
 #  make               :boolean
 #  created_at         :datetime         not null

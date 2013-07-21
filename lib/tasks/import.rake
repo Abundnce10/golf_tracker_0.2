@@ -51,4 +51,9 @@ namespace :import do
 
 	end
 
+	task :score_types => :environment do
+
+		score_types = [["Hole-in-One"]]
+	end
+
 end

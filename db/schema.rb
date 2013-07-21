@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130721215512) do
+ActiveRecord::Schema.define(:version => 20130721222503) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(:version => 20130721215512) do
 
   create_table "approach_details", :force => true do |t|
     t.integer  "played_hole_id"
-    t.integer  "score_type_id"
+    t.integer  "shot_number"
     t.integer  "distance_from_hole"
     t.boolean  "on_green"
     t.boolean  "in_the_hole"
@@ -133,7 +133,7 @@ ActiveRecord::Schema.define(:version => 20130721215512) do
 
   create_table "putt_details", :force => true do |t|
     t.string   "played_hole_id"
-    t.integer  "score_type_id"
+    t.integer  "shot_number"
     t.integer  "distance_from_hole"
     t.boolean  "make"
     t.datetime "created_at",         :null => false
@@ -188,13 +188,6 @@ ActiveRecord::Schema.define(:version => 20130721215512) do
     t.integer  "quad_plus_bogies"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
-  end
-
-  create_table "score_types", :force => true do |t|
-    t.string   "score_type"
-    t.integer  "score_relative_to_par"
-    t.datetime "created_at",            :null => false
-    t.datetime "updated_at",            :null => false
   end
 
   create_table "seasons", :force => true do |t|

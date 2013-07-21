@@ -4,7 +4,7 @@
 #
 #  id                 :integer          not null, primary key
 #  played_hole_id     :integer
-#  score_type_id      :integer
+#  shot_number        :integer
 #  distance_from_hole :integer
 #  on_green           :boolean
 #  in_the_hole        :boolean
