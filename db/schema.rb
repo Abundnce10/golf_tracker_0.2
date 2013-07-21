@@ -11,17 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130721222503) do
+ActiveRecord::Schema.define(:version => 20130721231540) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
     t.string   "street"
-    t.string   "city"
-    t.integer  "zipcode"
     t.string   "latitude"
     t.string   "longitude"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "city_id"
+    t.integer  "zipcode_id"
   end
 
   create_table "approach_details", :force => true do |t|
@@ -34,6 +34,12 @@ ActiveRecord::Schema.define(:version => 20130721222503) do
     t.datetime "updated_at",         :null => false
     t.boolean  "OB"
     t.boolean  "sand"
+  end
+
+  create_table "cities", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "course_reviews", :force => true do |t|
@@ -232,5 +238,11 @@ ActiveRecord::Schema.define(:version => 20130721222503) do
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
   add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
+
+  create_table "zipcodes", :force => true do |t|
+    t.integer  "zipcode"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
 end
