@@ -51,9 +51,20 @@ namespace :import do
 
 	end
 
-	task :score_types => :environment do
+	task :tees => :environment do 
 
-		score_types = [["Hole-in-One"]]
+		tees = [["Pro", "Gold"], ["Adv", "Blue"], ["Men's", "White"], ["Adv", "Yellow"], ["Women's", "Red"]]
+
+		puts "Importing tee types..."
+
+		tees.each do |t|
+			@tee = Tee.create({tee_type: t[0], color: t[1]})
+			puts "Added #{t[0]} tees"
+			sleep 1
+		end
+
+		puts "Import complete.\n"
+
 	end
 
 end
