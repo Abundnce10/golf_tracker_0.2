@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130717044650) do
+ActiveRecord::Schema.define(:version => 20130721195309) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -22,6 +22,16 @@ ActiveRecord::Schema.define(:version => 20130717044650) do
     t.string   "longitude"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "approach_details", :force => true do |t|
+    t.integer  "played_hole_id"
+    t.integer  "score_type_id"
+    t.integer  "distance_from_hole"
+    t.boolean  "on_green"
+    t.boolean  "in_the_hole"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "course_reviews", :force => true do |t|
@@ -50,6 +60,14 @@ ActiveRecord::Schema.define(:version => 20130717044650) do
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
     t.string   "name"
+  end
+
+  create_table "drive_details", :force => true do |t|
+    t.integer  "played_hole_id"
+    t.integer  "distance_of_drive"
+    t.boolean  "on_fairway"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "fairways", :force => true do |t|
@@ -107,6 +125,16 @@ ActiveRecord::Schema.define(:version => 20130717044650) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.integer  "strokes"
+    t.integer  "scramble"
+  end
+
+  create_table "putt_details", :force => true do |t|
+    t.string   "played_hole_id"
+    t.integer  "score_type_id"
+    t.integer  "distance_from_hole"
+    t.boolean  "make"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
   end
 
   create_table "round_notes", :force => true do |t|
@@ -116,6 +144,26 @@ ActiveRecord::Schema.define(:version => 20130717044650) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "round_summaries", :force => true do |t|
+    t.integer  "round_id"
+    t.integer  "score_summary_id"
+    t.integer  "total_strokes"
+    t.integer  "front_9_strokes"
+    t.integer  "back_9_strokes"
+    t.integer  "fairways_hit"
+    t.integer  "fairways_possible"
+    t.integer  "GIRs_hit"
+    t.integer  "GIRs_possible"
+    t.integer  "total_putts"
+    t.integer  "front_9_putts"
+    t.integer  "back_9_putts"
+    t.decimal  "scrambling_percentage"
+    t.integer  "sand_shots"
+    t.integer  "OBs"
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+  end
+
   create_table "rounds", :force => true do |t|
     t.integer  "user_id"
     t.integer  "course_id"
@@ -123,6 +171,27 @@ ActiveRecord::Schema.define(:version => 20130717044650) do
     t.date     "date_played"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "score_summaries", :force => true do |t|
+    t.integer  "hole_in_ones"
+    t.integer  "double_eagles"
+    t.integer  "eagles"
+    t.integer  "birdies"
+    t.integer  "pars"
+    t.integer  "bogies"
+    t.integer  "double_bogies"
+    t.integer  "triple_bogies"
+    t.integer  "quad_plus_bogies"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "score_types", :force => true do |t|
+    t.string   "score_type"
+    t.integer  "score_relative_to_par"
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
   end
 
   create_table "seasons", :force => true do |t|
