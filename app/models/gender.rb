@@ -11,7 +11,6 @@
 class Gender < ActiveRecord::Base
   attr_accessible :gender_type
 
-  has_many :holes
   has_many :slope_ratings
   has_many :handicaps
   has_many :pars

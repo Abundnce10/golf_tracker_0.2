@@ -15,22 +15,15 @@ class Hole < ActiveRecord::Base
   attr_accessible :course_id, :distance, :number, :tee_id
 
   belongs_to :course, dependent: :destroy
-  belongs_to :gender
   belongs_to :tee
   has_many   :hole_notes
   has_many   :played_holes
-  has_many   :handicaps
-  has_many   :pars
 
-  validates :course_id, :tee_id, :gender_id, :number, :par, :presence => true
+  validates :course_id, :tee_id, :number, :presence => true
   validates :number, :numericality => { :only_integer => true,
                                         :greater_than => 0,
                                         :less_than    => 37 }
   validates :distance, :numericality => { :only_integer => true,
                                          :greater_than => 0,
                                          :less_than    => 1000 }
-  validates :par, :numericality => { :only_integer => true,
-                                     :greater_than => 2,
-                                     :less_than    => 6}
-
 end

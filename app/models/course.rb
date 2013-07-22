@@ -24,6 +24,8 @@ class Course < ActiveRecord::Base
   belongs_to :season
   has_many   :course_reviews
   has_many   :holes
+  has_many   :handicaps
+  has_many   :pars
   has_many   :rounds
   has_many   :slope_ratings
 

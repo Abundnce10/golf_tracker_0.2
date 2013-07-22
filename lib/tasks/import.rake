@@ -11,7 +11,7 @@ namespace :import do
 		states.each do |state|
 			@state = State.create(name: state[0], abbreviation: state[1])
 			puts "Added #{state[0]}"
-			sleep 0.4
+			#sleep 0.4
 		end
 
 		puts "Import complete.\n"
@@ -29,7 +29,7 @@ namespace :import do
 		genders.each do |gender|
 			@gender = Gender.create({gender_type: gender})
 			puts "Added #{gender}"
-			sleep 1
+			#sleep 1
 		end
 
 		puts "Import complete.\n"
@@ -44,7 +44,7 @@ namespace :import do
 		fairways.each do |f|
 			@fairway = Fairway.create({fairway_accuracy: f})
 			puts "Added #{f}"
-			sleep 1
+			#sleep 1
 		end
 
 		puts "Import complete.\n"		
@@ -60,7 +60,7 @@ namespace :import do
 		tees.each do |t|
 			@tee = Tee.create({tee_type: t[0], color: t[1]})
 			puts "Added #{t[0]} tees"
-			sleep 1
+			#sleep 1
 		end
 
 		puts "Import complete.\n"
@@ -187,9 +187,83 @@ namespace :import do
 		    end
 
 
+		    # Holes
+		    holes = cds[:holes]
+
+		    # Save Pros Hole Distance
+		    if holes[:pro].inject{|sum,x| sum + x} > 0
+		        i = 1
+		        tee = Tee.find_by_tee_type("Pro")
+		        holes[:pro].each do |h|
+		            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+		            i += 1
+		        end
+		    end
+		    # Adv Hole Distance
+		    if holes[:adv].inject{|sum,x| sum + x} > 0
+		        i = 1
+		        tee = Tee.find_by_tee_type("Adv")
+		        holes[:adv].each do |h|
+		            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+		            i += 1
+		        end
+		    end
+		    # Men's Hole Distance
+		    if holes[:men].inject{|sum,x| sum + x} > 0
+		        i = 1
+		        tee = Tee.find_by_tee_type("Men's")
+		        holes[:men].each do |h|
+		            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+		            i += 1
+		        end
+		    end
+		    # Snr Hole Distance
+		    if holes[:snr].inject{|sum,x| sum + x} > 0
+		        i = 1
+		        tee = Tee.find_by_tee_type("Senior")
+		        holes[:snr].each do |h|
+		            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+		            i += 1
+		        end
+		    end
+		    # Women's Hole Distance
+		    if holes[:wmn].inject{|sum,x| sum + x} > 0
+		        i = 1
+		        tee = Tee.find_by_tee_type("Women's")
+		        holes[:wmn].each do |h|
+		            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+		            i += 1
+		        end
+		    end
+
+		    # Men's Par
+		    i = 1
+		    holes[:mpar].each do |p|
+		        @par = Par.create({course_id: @course.id, gender_id: gender_men.id, hole_number: i, par: p})
+		        i += 1
+		    end
+		    # Women's Par
+		    i = 1
+		    holes[:wpar].each do |p|
+		        @par = Par.create({course_id: @course.id, gender_id: gender_women.id, hole_number: i, par: p})
+		        i += 1
+		    end
+		    # Men's Handicap
+		    i = 1
+		    holes[:mhdc].each do |h|
+		        @handicap = Handicap.create({course_id: @course.id, gender_id: gender_men.id, hole_number: i, handicap: h})
+		        i += 1
+		    end
+		    # Women's Handicap
+		    i = 1
+		    holes[:whdc].each do |h|
+		        @handicap = Handicap.create({course_id: @course.id, gender_id: gender_women.id, hole_number: i, handicap: h})
+		        i += 1
+		    end
 
 
-		    puts "Saved course: #{name} in #{address[:city]}, #{address[:state]}"
+
+		    puts "Saved course: #{name} located #{address[:city]}, #{address[:state]}"
 
 		    break
 
@@ -199,3 +273,10 @@ namespace :import do
 	end
 
 end
+
+
+# $ bundle exec rake import:states
+# $ bundle exec rake import:genders
+# $ bundle exec rake import:fairways
+# $ bundle exec rake import:tees
+# $ bundle exec rake import:courses
