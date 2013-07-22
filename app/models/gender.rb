@@ -13,5 +13,6 @@ class Gender < ActiveRecord::Base
 
   has_many :holes
   has_many :slope_ratings
-
+  has_many :handicaps
+  has_many :pars
 end

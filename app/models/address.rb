@@ -5,12 +5,12 @@
 #  id         :integer          not null, primary key
 #  state_id   :integer
 #  street     :string(255)
-#  city       :string(255)
-#  zipcode    :integer
 #  latitude   :string(255)
 #  longitude  :string(255)
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  city_id    :integer
+#  zipcode_id :integer
 #
 
 class Address < ActiveRecord::Base

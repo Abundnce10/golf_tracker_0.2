@@ -5,11 +5,8 @@
 #  id         :integer          not null, primary key
 #  course_id  :integer
 #  tee_id     :integer
-#  gender_id  :integer
 #  number     :integer
 #  distance   :integer
-#  par        :integer
-#  handicap   :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
