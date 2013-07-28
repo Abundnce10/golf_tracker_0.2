@@ -13,4 +13,5 @@ class State < ActiveRecord::Base
   attr_accessible :abbreviation, :name
 
   has_many :addresses
+  has_many :courses
 end

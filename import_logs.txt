@@ -1,0 +1,182 @@
+2013-07-27 22:57:42 -0700 Started
+
+2013-07-27 23:12:34 -0700 Started
+
+2013-07-28 00:20:23 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 5, Course_id: 17082, Blue-East Potomac Public Golf Course
+
+2013-07-28 00:20:26 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:23 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 5, Course_id: 17082, Blue-East Potomac Public Golf Course
+
+, Course_id: 17085, Ft. McNair Golf Course
+
+2013-07-28 00:20:29 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:26 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:23 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 5, Course_id: 17082, Blue-East Potomac Public Golf Course
+
+, Course_id: 17085, Ft. McNair Golf Course
+
+, Course_id: 17086, Langston Legacy Golf Course & Driving Range
+
+2013-07-28 00:20:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:29 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:26 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:23 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 5, Course_id: 17082, Blue-East Potomac Public Golf Course
+
+, Course_id: 17085, Ft. McNair Golf Course
+
+, Course_id: 17086, Langston Legacy Golf Course & Driving Range
+
+, Course_id: 17083, Red-East Potomac Public Golf Course
+
+2013-07-28 00:20:35 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:29 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:26 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:23 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 5, Course_id: 17082, Blue-East Potomac Public Golf Course
+
+, Course_id: 17085, Ft. McNair Golf Course
+
+, Course_id: 17086, Langston Legacy Golf Course & Driving Range
+
+, Course_id: 17083, Red-East Potomac Public Golf Course
+
+, Course_id: 17087, Rock Creek Park Golf Course
+
+2013-07-28 00:20:38 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:35 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:29 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:26 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 00:20:23 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 5, Course_id: 17082, Blue-East Potomac Public Golf Course
+
+, Course_id: 17085, Ft. McNair Golf Course
+
+, Course_id: 17086, Langston Legacy Golf Course & Driving Range
+
+, Course_id: 17083, Red-East Potomac Public Golf Course
+
+, Course_id: 17087, Rock Creek Park Golf Course
+
+, Course_id: 17084, White-East Potomac Public Golf Course
+
+2013-07-28 00:52:00 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 8, Course_id: 1816, Hobe Sound Golf Club
+
+2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+2013-07-28 01:18:47 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+, Course_id: 5814, Ko olau Golf Club
+
+2013-07-28 01:19:06 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:47 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+, Course_id: 5814, Ko olau Golf Club
+
+, Course_id: 7304, Ted Makalena Golf Course
+
+2013-07-28 01:19:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:06 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:47 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+, Course_id: 5814, Ko olau Golf Club
+
+, Course_id: 7304, Ted Makalena Golf Course
+
+, Course_id: 4904, Kahuku Golf Course
+
+2013-07-28 01:19:54 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:06 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:47 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+, Course_id: 5814, Ko olau Golf Club
+
+, Course_id: 7304, Ted Makalena Golf Course
+
+, Course_id: 4904, Kahuku Golf Course
+
+, Course_id: 5816, Kukuiolono Golf Course
+
+2013-07-28 01:20:10 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:54 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:06 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:47 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+, Course_id: 5814, Ko olau Golf Club
+
+, Course_id: 7304, Ted Makalena Golf Course
+
+, Course_id: 4904, Kahuku Golf Course
+
+, Course_id: 5816, Kukuiolono Golf Course
+
+, Course_id: 7621, Kaluakoi Golf Course
+
+2013-07-28 01:20:15 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:20:10 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:54 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:19:06 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:47 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:32 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-28 01:18:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 9, Course_id: 4766, B-Hawaii Prince Golf Club
+
+, Course_id: 4767, C-Hawaii Prince Golf Club
+
+, Course_id: 5814, Ko olau Golf Club
+
+, Course_id: 7304, Ted Makalena Golf Course
+
+, Course_id: 4904, Kahuku Golf Course
+
+, Course_id: 5816, Kukuiolono Golf Course
+
+, Course_id: 7621, Kaluakoi Golf Course
+
+, Course_id: 7300, Kahili Golf Course
+
+2013-07-28 04:05:27 -0700 Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 21, Course_id: 14869, Red Cloud Golf Course
+
+2013-07-28 07:11:56 -0700 Finished

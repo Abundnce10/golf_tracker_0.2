@@ -13,6 +13,9 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  name            :string(255)
+#  city_id         :integer
+#  state_id        :integer
+#  zipcode_id      :integer
 #
 
 require 'spec_helper'

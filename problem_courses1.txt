@@ -1,0 +1,4 @@
+2013-07-27 01:01:18 -0700
+SQLite3::SQLException: cannot rollback - no transaction is active: rollback transaction
+File 2013-07-27 01:01:18 -0700
+SQLite3::SQLException: cannot rollback - no transaction is active: rollback transaction, Course_id: 4734, Thunderbird-Spring Lake Golf Club

@@ -12,4 +12,5 @@ class Zipcode < ActiveRecord::Base
   attr_accessible :zipcode
 
   has_many :addresses
+  has_many :courses
 end

@@ -1,0 +1,168 @@
+2013-07-25 19:29:39 -0700
+SQLite3::SQLException: cannot rollback - no transaction is active: rollback transaction
+File 2013-07-25 19:29:39 -0700
+SQLite3::SQLException: cannot rollback - no transaction is active: rollback transaction, Course_id: 474, Tanglewood Lakes Golf Club
+2013-07-25 19:29:50 -0700
+Interrupt: : INSERT INTO "holes" ("course_id", "created_at", "distance", "number", "tee_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)
+File 2013-07-25 19:29:50 -0700
+Interrupt: : INSERT INTO "holes" ("course_id", "created_at", "distance", "number", "tee_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?), Course_id: 353, Chena Bend Golf Course
+2013-07-25 19:43:51 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 19:43:51 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 13222, Pine Hills Golf Course
+2013-07-25 19:57:26 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 19:57:26 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 5307, Sunset Ridge Golf Center
+2013-07-25 20:09:56 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 20:09:56 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 3061, Mission Trails Golf Course
+2013-07-25 20:23:12 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 20:23:12 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 11969, Thorncreek Golf Club
+2013-07-25 20:34:32 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 20:34:32 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 17082, Blue-East Potomac Public Golf Course
+2013-07-25 20:34:37 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 20:34:37 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 17085, Ft. McNair Golf Course
+2013-07-25 20:34:42 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 20:34:42 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 17086, Langston Legacy Golf Course & Driving Range
+2013-07-25 20:34:47 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 20:34:47 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 17083, Red-East Potomac Public Golf Course
+2013-07-25 20:34:53 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 20:34:53 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 17087, Rock Creek Park Golf Course
+2013-07-25 20:34:58 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 20:34:58 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 17084, White-East Potomac Public Golf Course
+2013-07-25 20:37:21 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 20:37:21 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 1266, Executive-East Bay Golf Club
+2013-07-25 20:51:57 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 20:51:57 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 2868, Perdido Bay Golf Club
+2013-07-25 21:05:33 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 21:05:33 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 740, Calusa Country Club
+2013-07-25 21:06:42 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:06:42 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 1816, Hobe Sound Golf Club
+2013-07-25 21:22:08 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 21:22:08 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 9836, Roadside-Hickory Hill Golf Course
+2013-07-25 21:34:43 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:34:43 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 4766, B-Hawaii Prince Golf Club
+2013-07-25 21:34:50 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:34:50 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 4767, C-Hawaii Prince Golf Club
+2013-07-25 21:35:07 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:35:07 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 5814, Ko olau Golf Club
+2013-07-25 21:35:28 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:35:28 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 7304, Ted Makalena Golf Course
+2013-07-25 21:35:52 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:35:52 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 4904, Kahuku Golf Course
+2013-07-25 21:36:15 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:36:15 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 5816, Kukuiolono Golf Course
+2013-07-25 21:36:34 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:36:34 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 7621, Kaluakoi Golf Course
+2013-07-25 21:36:41 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-25 21:36:41 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 7300, Kahili Golf Course
+2013-07-25 21:37:36 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 21:37:36 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 13730, Pleasant Valley Sports Club
+2013-07-25 21:50:32 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 21:50:32 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 16304, Libertyville Golf Course
+2013-07-25 22:04:49 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 22:04:49 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 17168, Union County Country Club
+2013-07-25 22:18:57 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 22:18:57 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 12648, South-Michigan City Municipal Golf Course
+2013-07-25 22:31:55 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 22:31:55 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 7956, South Highland Country Club
+2013-07-25 22:44:35 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 22:44:35 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 14865, Pines-International Golf Club, The
+2013-07-25 22:57:25 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 22:57:25 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 15499, Legend-Shanty Creek Resorts
+2013-07-25 23:10:21 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 23:10:21 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 14229, White-Hickory Ridge Golf Course
+2013-07-25 23:23:33 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 23:23:33 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 15026, Blue-Pebble Creek Golf Club
+2013-07-25 23:37:08 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 23:37:08 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 35878, Betty Allison-Oscar Bloom
+2013-07-25 23:51:44 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-25 23:51:44 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 7244, Wilshire Golf Club
+2013-07-26 00:06:12 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-26 00:06:12 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 14572, Gibbon Valley View Golf Club
+2013-07-26 00:10:36 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+File 2013-07-26 00:10:36 -0700
+Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id, Course_id: 14869, Red Cloud Golf Course
+2013-07-26 00:19:33 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-26 00:19:33 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 12113, Rossmoor Golf Club
+2013-07-26 00:32:33 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-26 00:32:33 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 3709, Heatherwood Golf Club
+2013-07-26 08:05:19 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-26 08:05:19 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 2994, Brae Burn Country Club
+2013-07-26 08:17:21 -0700
+undefined local variable or method `current_state' for main:Object
+File 2013-07-26 08:17:21 -0700
+undefined local variable or method `current_state' for main:Object, Course_id: 17620, Middle-Elms Golf Course

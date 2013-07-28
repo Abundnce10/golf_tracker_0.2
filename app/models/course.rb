@@ -13,15 +13,21 @@
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
 #  name            :string(255)
+#  city_id         :integer
+#  state_id        :integer
+#  zipcode_id      :integer
 #
 
 class Course < ActiveRecord::Base
-  attr_accessible :address_id, :course_type_id, :fee_id, :number_of_holes, :phone_number, :season_id, :website, :name
+  attr_accessible :address_id, :city_id, :course_type_id, :fee_id, :name, :number_of_holes, :phone_number, :season_id, :state_id, :website, :zipcode_id
 
   belongs_to :address
   belongs_to :course_type
   belongs_to :fee
   belongs_to :season
+  belongs_to :city
+  belongs_to :state
+  belongs_to :zipcode
   has_many   :course_reviews
   has_many   :holes
   has_many   :handicaps
