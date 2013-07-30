@@ -1,0 +1,16 @@
+<h1>Choose a state</h1>
+
+
+
+<% @states.each do |s| %>
+
+  <div class="row">
+  	<div class="span8 offset2">
+  		<p style="text-align:center;font-size:1.8em;font-weight:bold;margin-bottom:0px;"><%= link_to "#{s.name}", state_path(s) %></p>
+  	</div>
+  </div>
+
+
+<% end %>
+
+

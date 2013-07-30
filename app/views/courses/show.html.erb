@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @course.name %></h1>
+
+<h3>Contact</h3>
+<p><%= @address.street %></p>
+<p><%= @city.name %>, <%= @state.name %> <%= @zip.zipcode %></p>
+<p><%= @course.phone_number %></p>
+<p><%= link_to(@course.website, "http://"+@course.website, {:target => "blank"}) %></p>
+
+<br>
+
+<h3>Course Details</h3>
+<p><b>Number of Holes: </b><%= @course.number_of_holes %></p>
+<p><b>Type: </b><%= @course_type.course_type %></p>
+<p><b>Seasonality: </b><%= @season.seasonality %></p>
+<p><b>Slope: </b><%= @slope_ratings.slope %></p>
+<p><b>Rating: </b><%= @slope_ratings.rating %></p>
+
+
+<br>
+
+<h3>Fees</h3>
+<p><b>Weekday 18 holes: </b>$<%= @fees.weekday_18 %></p>
+<p><b>Weekday 9 holes: </b>$<%= @fees.weekday_9 %></p>
+<p><b>Weekend 18 holes: </b>$<%= @fees.weekend_18 %></p>
+<p><b>Weekend 9 holes: </b>$<%= @fees.weekend_9 %></p>
+<p><b>Twilight: </b>$<%= @fees.twilight %></p>
+
+
+<br><br><br><br>
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>
