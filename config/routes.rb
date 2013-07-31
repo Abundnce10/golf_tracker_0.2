@@ -3,6 +3,7 @@ CoreApp::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :states
   resources :courses
+  resources :rounds
 
   root :to => 'static_pages#home'
 

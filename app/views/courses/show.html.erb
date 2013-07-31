@@ -2,6 +2,10 @@
 
 <h1><%= @course.name %></h1>
 
+<%= link_to "Play a Round", new_round_path(course_id: @course.id), class: "btn btn-large btn-success" %>
+
+<br><br>
+
 <h3>Contact</h3>
 <p><%= @address.street %></p>
 <p><%= @city.name %>, <%= @state.name %> <%= @zip.zipcode %></p>

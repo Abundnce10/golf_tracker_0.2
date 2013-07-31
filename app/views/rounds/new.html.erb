@@ -1,0 +1,73 @@
+<h1>New round</h1>
+
+<h5>The Course:</h5> <%= @course.inspect %><br>
+<h5>The Round:</h5> <%= @round.inspect %><br>
+<br>
+<b>Today's Date & Time:</b> <%= Time.new %><br>
+
+<b>Time of Round:</b> <% x = rand(3) %>
+<% if x % 3 == 0  %>
+
+	<%= "Morning" %>
+
+<% elsif x % 3 == 1 %>
+
+	<%= "Afternoon" %>
+
+<% else %>
+
+	<%= "Twilight" %>
+
+<% end %><br>
+
+<!--  -->
+<b>Estimated Holes:</b> <% x = rand(3) %>
+<% if x % 3 == 0  %>
+
+	<%= "18" %>
+
+<% elsif x % 3 == 1 %>
+
+	<%= "Front 9" %>
+
+<% else %>
+
+	<%= "Back 9" %>
+
+<% end %><br>
+
+
+<b>Bag of Clubs:</b> <% x = rand(3) %>
+<% if x % 3 == 0  %>
+
+	<%= "Ping G20's" %>
+
+<% elsif x % 3 == 1 %>
+
+	<%= "Nike VR Pro's" %>
+
+<% else %>
+
+	<%= "Titleist 712's" %>
+
+<% end %><br>
+<b>Friends:</b> <% x = rand(3) %>
+<% if x % 3 == 0  %>
+
+	<%= "Jeremy, Jrob, and Jeff" %>
+
+<% elsif x % 3 == 1  %>
+
+	<%= "Chris, Guy, and Michael" %>
+
+<% else %>
+
+	<%= "Nolan, Seth, William" %>
+
+<% end %><br>
+
+
+<br>
+<%= render 'form' %>
+
+<%= link_to 'Back', rounds_path %>
