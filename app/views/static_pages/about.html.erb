@@ -1,12 +1,12 @@
 <% provide(:title, "About") %>
 
-<h1>If you don't like</h1>
+<div class="about_text" style="font-size:3em;">If you don't like...</div>
 
 
 <div class="row">
 	<div class="span12 center">
 		<div class="">
-			<%= image_tag "rodney_dangerfield.jpg" %>
+			<%= image_tag "rodney_dangerfield.jpg", class: 'resize' %>
 			<%= image_tag "chevy_chase.jpg" %>
 		</div>
 
@@ -19,14 +19,14 @@
 	</div>
 </div>
 
-<br>
+<br><br>
 
-<h1>Then you wouldn't like 
+<div class="about_text">Then you wouldn't like
 
-	<div style="background-color:black;display:inline;">
+	<div id="logo_back">
 
 		<span style="color:white;">Caddie</span><span style="color:#479C47">Hack</span>
 
 	</div>
 
-</h1>
+</div>

@@ -91,6 +91,32 @@ p {
 }
 
 
+
+/* About */
+
+  #logo_back {
+    border-radius:.2em;
+    background-color:black;
+    display:inline;
+    padding:.1em .081em;
+    font-size: 1.4em;
+  }
+
+  .about_text {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  img.resize {
+    max-width:33em;
+    height:auto;
+  }
+
+
+
+
 /* footer */
 
 footer {
