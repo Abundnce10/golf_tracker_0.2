@@ -109,8 +109,13 @@ p {
     text-align: center;
   }
 
-  img.resize {
+  img.rodney {
     max-width:33em;
+    height:auto;
+  }
+
+  img.cover {
+    max-width:14em;
     height:auto;
   }
 
