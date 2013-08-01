@@ -46,5 +46,16 @@ tees.each do |t|
 end
 
 
+# Import Times of Day
+times_of_day = ["Morning", "Afternoon", "Evening"]
+
+puts "Importing times of day..."
+
+times_of_day.each do |t|
+	@time_of_day = TimeOfDay.create({time_of_day: t})
+	puts "Added #{t}"
+end
+
+
 
 # $ bundle exec rake db:seed

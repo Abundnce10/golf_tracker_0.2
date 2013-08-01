@@ -26,6 +26,22 @@ class RoundsController < ApplicationController
   def new
     @round = Round.new
     @course = Course.find(params[:course_id])
+    @user_handicap = UserHandicap.where("user_id = ?", current_user)
+    if @user_handicap.empty?
+      @user_handicap_id = nil
+    else
+      @user_handicap_id = @user_handicap.last.id
+    end
+
+    @tees = []
+    Tee.all().each do |t|
+      @tees.push([t.tee_type, t.id])
+    end
+
+    @times_of_day = []
+    TimeOfDay.all().each do |t|
+      @times_of_day.push([t.time_of_day, t.id])
+    end
 
     respond_to do |format|
       format.html # new.html.erb

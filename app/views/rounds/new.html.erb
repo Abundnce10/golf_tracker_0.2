@@ -1,4 +1,33 @@
-<h1>New round</h1>
+<h1>New Round</h1>
+<h3 class="center"><%= @course.name %></h3>
+
+
+<br><br>
+
+<div class="row">
+	<div class="span12">
+		<%= form_for(@round) do |f| %>
+
+			<%= f.hidden_field :course_id, value: @course.id %>
+			<%= f.hidden_field :user_handicap_id, value: @user_handicap_id %>
+
+			<%= f.label :tee_id, "Tees" %>
+			<%= f.select(:tee_id, @tees) %>
+
+			<%= f.label :time_of_day_id, "Tee Time" %>
+			<%= f.select(:time_of_day_id, @times_of_day) %>
+
+			<%= f.label :starting_hole, "Starting Hole" %>
+			<%= f.select(:starting_hole, generate_starting_hole_array()) %>
+
+			<%= f.submit "Begin Round", class: "btn btn-large btn-success" %>
+
+		<% end %>
+	</div>
+</div>
+
+
+<br><br>
 
 <h5>The Course:</h5> <%= @course.inspect %><br>
 <h5>The Round:</h5> <%= @round.inspect %><br>
@@ -68,6 +97,6 @@
 
 
 <br>
-<%= render 'form' %>
+
 
 <%= link_to 'Back', rounds_path %>

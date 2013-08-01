@@ -1,11 +1,17 @@
 <% provide(:title, "Home") %>
 <div class="center hero-unit">
-  <h1>Golf Tracker</h1>
 
-  <h2>
-    Track your golf round and gain insight into areas that need improvement.
-  </h2>
+  <h1>Play Golf. Track Progress. Gain Insight.</h1>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+  <% if current_user %>
+
+  	<%= link_to "Record Round!", states_path, class: "btn btn-large btn-success" %>
+
+  <% else %>
+
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+
+  <% end %>
+
 </div>
 
