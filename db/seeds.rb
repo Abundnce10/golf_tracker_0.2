@@ -57,5 +57,11 @@ times_of_day.each do |t|
 end
 
 
+# Import Blank Handicap
+puts "Adding blank User Handicap"
+
+@user_handicap = UserHandicap.create({})
+
+
 
 # $ bundle exec rake db:seed
