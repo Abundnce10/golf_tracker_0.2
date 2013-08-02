@@ -43,6 +43,8 @@ class RoundsController < ApplicationController
       @times_of_day.push([t.time_of_day, t.id])
     end
 
+    @date_played = Time.new
+
   end
 
 
