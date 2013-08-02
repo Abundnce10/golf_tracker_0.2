@@ -23,7 +23,7 @@ class Round < ActiveRecord::Base
   has_many   :round_notes
   belongs_to :course
   belongs_to :tee
-  belongs_to :user, dependent: :destroy
+  belongs_to :user
   belongs_to :time_of_day
   belongs_to :user_handicap
 
