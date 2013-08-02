@@ -5,6 +5,12 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @rounds = @user.rounds
+    @played_rounds = []
+    @rounds.each do |r|
+      @played_rounds.push([r, r.course])
+    end
+
   end
 
   def new

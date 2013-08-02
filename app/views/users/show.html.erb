@@ -1,6 +1,6 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-  <aside class="span4">
+  <aside class="span3">
     <section>
       <h1>
         <!--<%= gravatar_for @user %>-->
@@ -8,4 +8,20 @@
       </h1>
     </section>
   </aside>
+  <div class="span9">
+	<h2>History</h2>
+	<% @played_rounds.each do |played_round| %>
+  		<div class="row">
+  			<div class="span9">
+  				<p class="played_round">
+  					<%= link_to played_round[1].name, round_path(played_round[0]) %>
+  				</p>
+  				<p class="play_date">
+  					<%= "  |  #{time_ago_in_words(played_round[0].date_played)}" %>
+  				</p>
+  			</div>
+
+  		</div>
+  	<% end %>
+  </div>
 </div>
