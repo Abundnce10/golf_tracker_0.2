@@ -594,7 +594,7 @@ namespace :import do
 					    	puts "#{a} courses complete.  Currently in #{@current_state}"
 					    	@counter += 1
 					    end
-					    #puts "Saved course: #{name} located #{address[:city]}, #{address[:state]}"
+					    puts "Saved course: #{name}"
 
 
 					#### CATCH EXCEPTION
