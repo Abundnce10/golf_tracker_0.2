@@ -612,10 +612,10 @@ namespace :import do
 
 				else
 					# Not WA course, move on to next
-					break
+					next
 				end				    
 
-			end # End of File
+			end # End of Courses loop
 
 		end # End of Files Loop
 
@@ -634,3 +634,4 @@ end
 # $ bundle exec rake import:fairways
 # $ bundle exec rake import:tees
 # $ bundle exec rake import:courses
+# $ heroku run rake import:select_wa_courses
