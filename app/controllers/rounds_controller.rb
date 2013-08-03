@@ -1,6 +1,5 @@
 class RoundsController < ApplicationController
-  # GET /rounds
-  # GET /rounds.json
+
   def index
     @rounds = Round.all
 
@@ -21,8 +20,6 @@ class RoundsController < ApplicationController
     end
   end
 
-  # GET /rounds/new
-  # GET /rounds/new.json
   def new
     @round = Round.new
     @course = Course.find(params[:course_id])
@@ -59,10 +56,12 @@ class RoundsController < ApplicationController
     @starting_hole = params[:round][:starting_hole]
 
 
+
     if @round.save
 
       flash[:success] = "Successfully started New Round!"
-      redirect_to @round
+      redirect_to new_played_hole_path(round_id: @round.id, starting_hole: @starting_hole, tee_id: @tee_id, course_id: @course_id)
+      #redirect_to round_path()  
 
     else
 

@@ -10,6 +10,7 @@
 #  password_digest :string(255)
 #  remember_token  :string(255)
 #  admin           :boolean          default(FALSE)
+#  gender_id       :integer          default(1)
 #
 
 require 'spec_helper'

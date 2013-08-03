@@ -10,15 +10,17 @@
 #  password_digest :string(255)
 #  remember_token  :string(255)
 #  admin           :boolean          default(FALSE)
+#  gender_id       :integer          default(1)
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :email, :name, :password, :password_confirmation
+  attr_accessible :email, :gender_id, :name, :password, :password_confirmation
   has_secure_password
 
   has_many :course_reviews
   has_many :hole_notes
-  has_many :rounds 
+  has_many :rounds
+  belongs_to :gender
 
   before_save { |user| user.email = email.downcase }
   before_save :create_remember_token

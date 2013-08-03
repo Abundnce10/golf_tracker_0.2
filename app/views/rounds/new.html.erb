@@ -9,7 +9,7 @@
 
 			<%= f.hidden_field :course_id, value: @course.id %>
 			<%= f.hidden_field :user_handicap_id, value: @user_handicap_id %>
-			<%= f.hidden_field :date_played, value: Time.new %>
+			<%= f.hidden_field :date_played, value: @date_played %>
 
 			<%= f.label :tee_id, "Tees" %>
 			<%= f.select(:tee_id, @tees) %>
