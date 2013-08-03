@@ -17,7 +17,7 @@
 #
 
 class PlayedHole < ActiveRecord::Base
-  attr_accessible :GIR, :OB, :bunker, :fairway_id, :hole_id, :putts, :round_id
+  attr_accessible :GIR, :OB, :bunker, :fairway_id, :hole_id, :putts, :round_id, :scramble, :strokes
 
   belongs_to :fairway
   belongs_to :hole

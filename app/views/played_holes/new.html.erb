@@ -1,0 +1,74 @@
+<h1><%= @course.name %></h1>
+
+<h1><%= "Hole ##{@hole.number} - Par #{@par.par} - #{@hole.distance} yards" %></h1>
+
+<% if @par.par > 3 %>
+
+	<h2>How was your drive?</h2>
+
+	<div class="row">
+		<!-- Long -->
+		<div class="span2 offset3"><%= image_tag "LeftLong.jpg" %></div>
+		<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
+		<div class="span2"><%= image_tag "RightLong.jpg" %></div>
+	</div>
+	<div class="row">
+		<!-- Middle -->
+		<div class="span2 offset3"><%= image_tag "LeftMiddle.jpg" %></div>
+		<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
+		<div class="span2"><%= image_tag "RightMiddle.jpg" %></div>
+	</div>
+	<div class="row">
+		<!-- Short -->
+		<div class="span2 offset3"><%= image_tag "LeftShort.jpg" %></div>
+		<div class="span2"><%= image_tag "MiddleShort.jpg" %></div>
+		<div class="span2"><%= image_tag "RightShort.jpg" %></div>
+	</div>
+	<br><br>
+
+	<% if @par.par == 4 %>
+
+		<h2>Did You Get On the Green in 2 Strokes?</h2>
+		<div class="row">
+			<div class="span1 offset5">
+				<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
+			</div>
+			<div class="span1">
+				<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
+			</div>
+		</div>
+
+	<% else %>
+
+		<h2>Did You Get On the Green in 3 Strokes?</h2>
+		<div class="row">
+			<div class="span1 offset5">
+				<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
+			</div>
+			<div class="span1">
+				<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
+			</div>
+		</div>
+
+	<% end %>
+
+<!-- Par 3 -->
+<% else %>
+
+			<h2>Did You Get On the Green in 2 Strokes?</h2>
+		<div class="row">
+			<div class="span1 offset5">
+				<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
+			</div>
+			<div class="span1">
+				<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
+			</div>
+		</div>
+
+<% end %>
+
+<br><br><br><br>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', played_holes_path %>
