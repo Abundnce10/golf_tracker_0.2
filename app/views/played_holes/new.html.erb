@@ -1,5 +1,7 @@
 <h1><%= @course.name %></h1>
 
+<h3><%= @hole.inspect %></h3>
+
 <h1><%= "Hole ##{@hole.number} - Par #{@par.par} - #{@hole.distance} yards" %></h1>
 
 <% if @par.par > 3 %>
