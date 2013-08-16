@@ -1,73 +1,159 @@
-<h1><%= @course.name %></h1>
-
-<h3><%= @hole.inspect %></h3>
-
 <h1><%= "Hole ##{@hole.number} - Par #{@par.par} - #{@hole.distance} yards" %></h1>
+
+
+<!-- Complex Input -->
+<!-- Drives DIV -->
 
 <% if @par.par > 3 %>
 
-	<h2>How was your drive?</h2>
+	<div id="drives_div">
+		<h2>How was your drive?</h2>
 
-	<div class="row">
-		<!-- Long -->
-		<div class="span2 offset3"><%= image_tag "LeftLong.jpg" %></div>
-		<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
-		<div class="span2"><%= image_tag "RightLong.jpg" %></div>
+		<div class="row">
+			<!-- Top Row -->
+			<div class="span2 offset1"><%= link_to "Hook", "#", class: "btn btn-large btn-danger" %></div>
+			<div class="span2"><%= image_tag "LeftLong.jpg" %></div>
+			<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
+			<div class="span2"><%= image_tag "RightLong.jpg" %></div>
+			<div class="span2"><%= link_to "Slice", "#", class: "btn btn-large btn-danger" %></div>
+		</div>
+		<div class="row">
+			<!-- Middle Row -->
+			<div class="span2 offset1"><%= link_to "Obstructed", "#", class: "btn btn-large btn-danger" %></div>
+			<div class="span2"><%= image_tag "LeftMiddle.jpg" %></div>
+			<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
+			<div class="span2"><%= image_tag "RightMiddle.jpg" %></div>
+			<div class="span2"><%= link_to "Obstructed", "#", class: "btn btn-large btn-danger" %></div>
+		</div>
+		<div class="row">
+			<!-- Bottom Row -->
+			<div class="span2 offset1"><%= link_to "O.B.", "#", class: "btn btn-large btn-danger" %></div>
+			<div class="span2"><%= image_tag "LeftShort.jpg" %></div>
+			<div class="span2"><%= image_tag "MiddleShort.jpg" %></div>
+			<div class="span2"><%= image_tag "RightShort.jpg" %></div>
+			<div class="span2"><%= link_to "O.B.", "#", class: "btn btn-large btn-danger" %></div>
+		</div>
 	</div>
-	<div class="row">
-		<!-- Middle -->
-		<div class="span2 offset3"><%= image_tag "LeftMiddle.jpg" %></div>
-		<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
-		<div class="span2"><%= image_tag "RightMiddle.jpg" %></div>
-	</div>
-	<div class="row">
-		<!-- Short -->
-		<div class="span2 offset3"><%= image_tag "LeftShort.jpg" %></div>
-		<div class="span2"><%= image_tag "MiddleShort.jpg" %></div>
-		<div class="span2"><%= image_tag "RightShort.jpg" %></div>
-	</div>
+
 	<br><br>
 
-	<% if @par.par == 4 %>
+<% end %><!-- End Drives DIV -->
 
-		<h2>Did You Get On the Green in 2 Strokes?</h2>
-		<div class="row">
-			<div class="span1 offset5">
-				<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
-			</div>
-			<div class="span1">
-				<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
-			</div>
+
+<!--  GIR Details  -->
+<div id="GIR_container">
+	<h2>Did You Get On the Green
+		<% if @par.par == 4 %>in 2 Strokes<% else %>in 3 Strokes<% end %>
+	?</h2>
+	<div class="row">
+		<div class="span1 offset5">
+			<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
 		</div>
-
-	<% else %>
-
-		<h2>Did You Get On the Green in 3 Strokes?</h2>
-		<div class="row">
-			<div class="span1 offset5">
-				<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
-			</div>
-			<div class="span1">
-				<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
-			</div>
+		<div class="span1">
+			<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
 		</div>
+	</div>
+</div>	
 
-	<% end %>
 
-<!-- Par 3 -->
-<% else %>
-
-			<h2>Did You Get On the Green in 2 Strokes?</h2>
-		<div class="row">
-			<div class="span1 offset5">
-				<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
-			</div>
-			<div class="span1">
-				<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
-			</div>
+<!--  Putt Details -->
+<div id="make_putt_container">
+	<h2>Did You Make the Putt?</h2>
+	<div class="row">
+		<div class="span1 offset5">
+			<%= link_to "Yes", "#", class: "btn btn-large btn-success", id: "first_putt_yes" %>
 		</div>
+		<div class="span1">
+			<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
+		</div>
+	</div>
+</div>
 
-<% end %>
+
+
+<!--  How Many Putts?  -->
+<div id="how_many_putts">
+	<h2>How many putts?</h2>
+	<div>
+</div>
+-->
+
+
+
+
+<script type="text/javascript">
+
+	var fairway = 0;
+	var approach = 0;
+	var putts = 0;
+
+
+
+	/* Hide GIR & Putt DIVs  */
+	$( document ).ready(function() {
+		console.log( "ready!" );
+		$('#GIR_container').hide()
+		$('#putt_details_container').hide();
+		$('#first_putt_container').hide();
+		$('#make_putt_container').hide()''
+		$('#how_many_putts').hide();
+	});
+
+	/* Drives DIV clicked 
+	$( "#drives_div" ).click(function() {
+		$('#GIR_container').show();
+		$('#drives_div').hide();
+	});*/
+
+	$('#drives_div').click(function() {
+		alert("drives div");
+		
+		$('#GIR_container').slideDown('slow', function() {
+		// Animation complete.
+		});
+		$('#GIR_container').show();
+		$('#drives_div').hide();
+
+	});	
+
+	/*  GIR's  */
+	$( "#GIR_container" ).click(function() {
+		$('#make_putt_container').show();
+		/*$('#GIR_container').hide();*/
+	});
+
+	$( "#GIR_container" ).click(function() {
+		$('#make_putt_container').show();
+		/*$('#GIR_container').hide();*/
+	});
+	$( "#GIR_success" ).click(function() {
+		$('#make_putt_container').show();
+		$('#GIR_container').hide();
+	});
+
+
+
+	/*  End GIRs  */
+
+
+	/*  Putts  */
+	$( "#first_putt_yes" ).click(function() {
+		alert( "first_putt_yes for .click() called." );
+		$('#putt_details_container').show();
+	});
+
+	$( "#other" ).click(function() {
+		$( "#target" ).click();
+	});
+
+
+	$('.target').hide();
+
+</script>
+
+
+
+
 
 <br><br><br><br>
 
