@@ -14,13 +14,14 @@ class PlayedHolesController < ApplicationController
     @played_hole = PlayedHole.new
 
     @course = Course.find(params[:course_id])
+    @round_id = params[:round_id]
+    @tee_id = params[:tee_id]
+    @course_id = params[:course_id]
 
     # Find Hole, Handicap, and Par
-    @hole = Hole.where(course_id: params[:course_id], tee_id: params[:tee_id], number: params[:starting_hole]).first
-    @handicap = Handicap.where(course_id: params[:course_id], gender_id: current_user.gender_id, hole_number: params[:starting_hole]).first
-    @par = Par.where(course_id: params[:course_id], gender_id: current_user.gender_id, hole_number: params[:starting_hole]).first
-
-
+    @hole = Hole.where(course_id: params[:course_id], tee_id: params[:tee_id], number: params[:hole_number]).first
+    @handicap = Handicap.where(course_id: params[:course_id], gender_id: current_user.gender_id, hole_number: params[:hole_number]).first
+    @par = Par.where(course_id: params[:course_id], gender_id: current_user.gender_id, hole_number: params[:hole_number]).first
 
   end
 
@@ -29,24 +30,32 @@ class PlayedHolesController < ApplicationController
     @played_hole = PlayedHole.find(params[:id])
   end
 
-  # POST /played_holes
-  # POST /played_holes.json
-  def create
-    @played_hole = PlayedHole.new(params[:played_hole])
 
-    respond_to do |format|
-      if @played_hole.save
-        format.html { redirect_to @played_hole, notice: 'Played hole was successfully created.' }
-        format.json { render json: @played_hole, status: :created, location: @played_hole }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @played_hole.errors, status: :unprocessable_entity }
-      end
+  def create
+    @played_hole = PlayedHole.new(round_id: params[:played_hole][:round_id],
+                                  hole_id: params[:played_hole][:hole_id],
+                                  fairway_id: params[:played_hole][:fairway_id],
+                                  :GIR => params[:played_hole][:GIR],
+                                  putts: params[:played_hole][:putts],
+                                  strokes: params[:played_hole][:strokes],
+                                  scramble: nil,
+                                  bunker: nil,
+                                  :OB => nil)
+
+    if @played_hole.save
+      flash[:success] = "Successfully stored hole!"
+      redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
+                                       hole_number: params[:played_hole][:hole_number].to_i + 1, 
+                                       tee_id: params[:played_hole][:tee_id], 
+                                       course_id: params[:played_hole][:course_id])
+    else
+      flash[:error] = @played_hole.errors.full_messages
+      render action: 'new'
     end
+
   end
 
-  # PUT /played_holes/1
-  # PUT /played_holes/1.json
+
   def update
     @played_hole = PlayedHole.find(params[:id])
 

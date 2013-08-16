@@ -31,7 +31,7 @@ class RoundsController < ApplicationController
     end
 
     @tees = []
-    Tee.all().each do |t|
+    Tee.joins(:holes).where(holes: { course_id: 1 }).uniq.each do |t|
       @tees.push([t.tee_type, t.id])
     end
 
@@ -53,14 +53,14 @@ class RoundsController < ApplicationController
     @time_of_day_id = params[:round][:time_of_day_id]
     @user_handicap_id = params[:round][:user_handicap_id]
     @date_played = params[:round][:date_played]
-    @starting_hole = params[:round][:starting_hole]
+    @hole_number = params[:round][:starting_hole]
 
 
 
     if @round.save
 
       flash[:success] = "Successfully started New Round!"
-      redirect_to new_played_hole_path(round_id: @round.id, starting_hole: @starting_hole, tee_id: @tee_id, course_id: @course_id)
+      redirect_to new_played_hole_path(round_id: @round.id, hole_number: @hole_number, tee_id: @tee_id, course_id: @course_id)
       #redirect_to round_path()  
 
     else

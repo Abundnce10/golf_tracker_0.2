@@ -1,157 +1,36 @@
 <h1><%= "Hole ##{@hole.number} - Par #{@par.par} - #{@hole.distance} yards" %></h1>
 
+<h3>How'd you do?</h3>
 
-<!-- Complex Input -->
-<!-- Drives DIV -->
+<br><br>
 
-<% if @par.par > 3 %>
+<%= @hole.inspect %>
 
-	<div id="drives_div">
-		<h2>How was your drive?</h2>
+<%= form_for(@played_hole) do |f| %>
 
-		<div class="row">
-			<!-- Top Row -->
-			<div class="span2 offset1"><%= link_to "Hook", "#", class: "btn btn-large btn-danger" %></div>
-			<div class="span2"><%= image_tag "LeftLong.jpg" %></div>
-			<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
-			<div class="span2"><%= image_tag "RightLong.jpg" %></div>
-			<div class="span2"><%= link_to "Slice", "#", class: "btn btn-large btn-danger" %></div>
-		</div>
-		<div class="row">
-			<!-- Middle Row -->
-			<div class="span2 offset1"><%= link_to "Obstructed", "#", class: "btn btn-large btn-danger" %></div>
-			<div class="span2"><%= image_tag "LeftMiddle.jpg" %></div>
-			<div class="span2"><%= image_tag "MiddleLong.jpg" %></div>
-			<div class="span2"><%= image_tag "RightMiddle.jpg" %></div>
-			<div class="span2"><%= link_to "Obstructed", "#", class: "btn btn-large btn-danger" %></div>
-		</div>
-		<div class="row">
-			<!-- Bottom Row -->
-			<div class="span2 offset1"><%= link_to "O.B.", "#", class: "btn btn-large btn-danger" %></div>
-			<div class="span2"><%= image_tag "LeftShort.jpg" %></div>
-			<div class="span2"><%= image_tag "MiddleShort.jpg" %></div>
-			<div class="span2"><%= image_tag "RightShort.jpg" %></div>
-			<div class="span2"><%= link_to "O.B.", "#", class: "btn btn-large btn-danger" %></div>
-		</div>
-	</div>
+	<%= f.hidden_field :round_id, value: @round_id %>
+	<%= f.hidden_field :hole_id, value: @hole.id %>
+	<%= f.hidden_field :hole_number, value: @hole.number %>
+	<%= f.hidden_field :tee_id, value: @tee_id %>
+	<%= f.hidden_field :course_id, value: @course_id %>
 
-	<br><br>
+	<% if @par.par > 3 %>
+		<%= f.label :fairway_id, "Fairway Result?" %>
+		<%= f.select(:fairway_id, [['Center', 0], ['Right', 1], ['Left', 2]]) %>
+	<% end %>
 
-<% end %><!-- End Drives DIV -->
+	<%= f.label :GIR, "Green in Regulation?" %>
+	<%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
 
+	<%= f.label :putts, "How many putts?" %>
+	<%= f.select(:putts, [['0',0],['1',1],['2',2]]) %>
 
-<!--  GIR Details  -->
-<div id="GIR_container">
-	<h2>Did You Get On the Green
-		<% if @par.par == 4 %>in 2 Strokes<% else %>in 3 Strokes<% end %>
-	?</h2>
-	<div class="row">
-		<div class="span1 offset5">
-			<%= link_to "Yes", "#", class: "btn btn-large btn-success" %>
-		</div>
-		<div class="span1">
-			<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
-		</div>
-	</div>
-</div>	
+	<%= f.label :strokes, "How many strokes?" %>
+	<%= f.select(:strokes, [['1',1],['2',2],['3',3],['4',4]]) %>
 
+	<%= f.submit "Next Hole", class: "btn btn-large btn-success" %>
 
-<!--  Putt Details -->
-<div id="make_putt_container">
-	<h2>Did You Make the Putt?</h2>
-	<div class="row">
-		<div class="span1 offset5">
-			<%= link_to "Yes", "#", class: "btn btn-large btn-success", id: "first_putt_yes" %>
-		</div>
-		<div class="span1">
-			<%= link_to "No", "#", class: "btn btn-large btn-danger" %>
-		</div>
-	</div>
-</div>
-
-
-
-<!--  How Many Putts?  -->
-<div id="how_many_putts">
-	<h2>How many putts?</h2>
-	<div>
-</div>
--->
-
-
-
-
-<script type="text/javascript">
-
-	var fairway = 0;
-	var approach = 0;
-	var putts = 0;
-
-
-
-	/* Hide GIR & Putt DIVs  */
-	$( document ).ready(function() {
-		console.log( "ready!" );
-		$('#GIR_container').hide()
-		$('#putt_details_container').hide();
-		$('#first_putt_container').hide();
-		$('#make_putt_container').hide()''
-		$('#how_many_putts').hide();
-	});
-
-	/* Drives DIV clicked 
-	$( "#drives_div" ).click(function() {
-		$('#GIR_container').show();
-		$('#drives_div').hide();
-	});*/
-
-	$('#drives_div').click(function() {
-		alert("drives div");
-		
-		$('#GIR_container').slideDown('slow', function() {
-		// Animation complete.
-		});
-		$('#GIR_container').show();
-		$('#drives_div').hide();
-
-	});	
-
-	/*  GIR's  */
-	$( "#GIR_container" ).click(function() {
-		$('#make_putt_container').show();
-		/*$('#GIR_container').hide();*/
-	});
-
-	$( "#GIR_container" ).click(function() {
-		$('#make_putt_container').show();
-		/*$('#GIR_container').hide();*/
-	});
-	$( "#GIR_success" ).click(function() {
-		$('#make_putt_container').show();
-		$('#GIR_container').hide();
-	});
-
-
-
-	/*  End GIRs  */
-
-
-	/*  Putts  */
-	$( "#first_putt_yes" ).click(function() {
-		alert( "first_putt_yes for .click() called." );
-		$('#putt_details_container').show();
-	});
-
-	$( "#other" ).click(function() {
-		$( "#target" ).click();
-	});
-
-
-	$('.target').hide();
-
-</script>
-
-
+<% end %> 
 
 
 
