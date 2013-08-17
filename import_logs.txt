@@ -707,3 +707,531 @@ File 21, Course_id: 14869, Red Cloud Golf Course
 	course_id:32145	Chambers Bay Golf Course
 	course_id:12589	Kayak Point Golf Course
 	course_id:14918	Legion Memorial Golf Course
+2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+2013-08-17 15:31:05 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+2013-08-17 15:31:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:05 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+2013-08-17 15:31:12 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:05 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+2013-08-17 15:31:15 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:12 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:05 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+2013-08-17 15:31:18 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:15 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:12 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:05 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+	course_id:12589	Kayak Point Golf Course
+2013-08-17 15:31:21 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:18 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:15 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:12 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:05 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:31:02 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:59 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:56 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:53 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:50 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:47 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:44 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:40 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:37 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:34 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:31 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:28 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:25 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:22 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:19 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:16 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:13 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:09 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:06 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:03 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:30:00 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:57 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:54 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:51 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:48 -0700	Can't mass-assign protected attributes: par,file:2013-08-17 15:29:44 -0700	undefined method `divmod' for 2013-08-17 15:29:44 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+	course_id:12589	Kayak Point Golf Course
+	course_id:14918	Legion Memorial Golf Course
