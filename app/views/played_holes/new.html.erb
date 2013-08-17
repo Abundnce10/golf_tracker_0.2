@@ -10,7 +10,7 @@
 
 
 	<%= f.label :strokes, "How many strokes?" %>
-	<%= f.select(:strokes, options_for_select(generate_strokes_array(@par.par), selected: @hole.par)) %>
+	<%= f.select(:strokes, options_for_select(generate_strokes_array(@hole.par), selected: @hole.par)) %>
 
 	<%= f.label :putts, "How many putts?" %>
 	<%= f.select(:putts, generate_putts_array(5)) %>
@@ -18,7 +18,7 @@
 	<%= f.label :GIR, "Green in Regulation?" %>
 	<%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
 
-	<% if @par.par > 3 %>
+	<% if @hole.par > 3 %>
 		<%= f.label :fairway_id, "Fairway Result?" %>
 		<%= f.select(:fairway_id, [['Center', 0], ['Right', 1], ['Left', 2]]) %>
 	<% end %>
