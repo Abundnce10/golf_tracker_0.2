@@ -1,4 +1,4 @@
-<h1><%= "Hole ##{@hole.number} - Par #{@par.par} - #{@hole.distance} yards" %></h1>
+<h1><%= "Hole ##{@hole.number} - Par #{@hole.par} - #{@hole.distance} yards" %></h1>
 
 <%= form_for(@played_hole) do |f| %>
 
@@ -10,7 +10,7 @@
 
 
 	<%= f.label :strokes, "How many strokes?" %>
-	<%= f.select(:strokes, options_for_select(generate_strokes_array(@par.par), selected: @par.par)) %>
+	<%= f.select(:strokes, options_for_select(generate_strokes_array(@par.par), selected: @hole.par)) %>
 
 	<%= f.label :putts, "How many putts?" %>
 	<%= f.select(:putts, generate_putts_array(5)) %>

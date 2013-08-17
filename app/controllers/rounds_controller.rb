@@ -34,7 +34,7 @@ class RoundsController < ApplicationController
 
     # SELECT DISTINCT(tee_id) FROM Tees as t INNER JOIN Holes as h WHERE h.course_id = 14934;
     @tees = []
-    Tee.joins(:holes).where(holes: { course_id: @course.id }).uniq.each do |t|
+    Tee.joins(:holes).where(holes: { course_id: params[:course_id] }).uniq.each do |t|
       @tees.push([t.tee_type, t.id])
     end
 

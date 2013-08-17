@@ -18,10 +18,9 @@ class PlayedHolesController < ApplicationController
     @tee_id = params[:tee_id]
     @course_id = params[:course_id]
 
-    # Find Hole, Handicap, and Par
+    # Find Hole, Handicap
     @hole = Hole.where(course_id: params[:course_id], tee_id: params[:tee_id], number: params[:hole_number]).first
     @handicap = Handicap.where(course_id: params[:course_id], gender_id: current_user.gender_id, hole_number: params[:hole_number]).first
-    @par = Par.where(course_id: params[:course_id], gender_id: current_user.gender_id, hole_number: params[:hole_number]).first
 
   end
 
