@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130803190438) do
+ActiveRecord::Schema.define(:version => 20130817211234) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -130,6 +130,7 @@ ActiveRecord::Schema.define(:version => 20130803190438) do
     t.integer  "distance"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "par"
   end
 
   create_table "pars", :force => true do |t|
@@ -149,10 +150,11 @@ ActiveRecord::Schema.define(:version => 20130803190438) do
     t.integer  "putts"
     t.integer  "bunker"
     t.integer  "OB"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
     t.integer  "strokes"
     t.integer  "scramble"
+    t.integer  "score_change"
   end
 
   create_table "putt_details", :force => true do |t|

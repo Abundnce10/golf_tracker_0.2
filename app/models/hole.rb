@@ -9,6 +9,7 @@
 #  distance   :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  par        :integer
 #
 
 class Hole < ActiveRecord::Base

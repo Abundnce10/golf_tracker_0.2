@@ -313,7 +313,9 @@ namespace :import do
 	end
 
 
-	### Just Washington Courses
+
+
+	### Just Washington Courses, non-woman tees
 	desc "imports just Washington courses data into database"
 
 
@@ -475,6 +477,7 @@ namespace :import do
 					        @slope_rating = SlopeRating.create({tee_id: tee.id, gender_id: gender_men.id, course_id: @course.id, slope: slopes[:snr][:men].to_i, rating: ratings[:snr][:men].to_f})
 					    end
 
+=begin
 					    # Women's
 					    if !ratings[:wmn][:men].empty? or !slopes[:wmn][:men].empty?
 					        tee = Tee.find_by_tee_type("Women's")
@@ -509,7 +512,7 @@ namespace :import do
 					        tee = Tee.find_by_tee_type("Women's")
 					        @slope_rating = SlopeRating.create({tee_id: tee.id, gender_id: gender_women.id, course_id: @course.id, slope: slopes[:wmn][:women].to_i, rating: ratings[:wmn][:women].to_f})
 					    end
-
+=end
 
 					    # Holes
 					    holes = cds[:holes]
@@ -519,7 +522,7 @@ namespace :import do
 					        i = 1
 					        tee = Tee.find_by_tee_type("Pro")
 					        holes[:pro].each do |h|
-					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h, par: holes[:mpar][i-1]})
 					            i += 1
 					        end
 					    end
@@ -528,7 +531,7 @@ namespace :import do
 					        i = 1
 					        tee = Tee.find_by_tee_type("Adv")
 					        holes[:adv].each do |h|
-					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h, par: holes[:mpar][i-1]})
 					            i += 1
 					        end
 					    end
@@ -537,7 +540,7 @@ namespace :import do
 					        i = 1
 					        tee = Tee.find_by_tee_type("Men's")
 					        holes[:men].each do |h|
-					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h, par: holes[:mpar][i-1]})
 					            i += 1
 					        end
 					    end
@@ -546,10 +549,12 @@ namespace :import do
 					        i = 1
 					        tee = Tee.find_by_tee_type("Senior")
 					        holes[:snr].each do |h|
-					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h})
+					            @hole = Hole.create({course_id: @course.id, tee_id: tee.id, number: i, distance: h, par: holes[:mpar][i-1]})
 					            i += 1
 					        end
 					    end
+
+=begin
 					    # Women's Hole Distance
 					    if holes[:wmn].inject{|sum,x| sum + x} > 0
 					        i = 1
@@ -573,7 +578,7 @@ namespace :import do
 					        @par = Par.create({course_id: @course.id, gender_id: gender_women.id, hole_number: i, par: p})
 					        i += 1
 					    end
-
+=end
 
 					    # Men's Handicap
 					    i = 1
@@ -581,13 +586,14 @@ namespace :import do
 					        @handicap = Handicap.create({course_id: @course.id, gender_id: gender_men.id, hole_number: i, handicap: h})
 					        i += 1
 					    end
+=begin					    
 					    # Women's Handicap
 					    i = 1
 					    holes[:whdc].each do |h|
 					        @handicap = Handicap.create({course_id: @course.id, gender_id: gender_women.id, hole_number: i, handicap: h})
 					        i += 1
 					    end
-
+=end
 					    
 					    if @total_courses % 500 == 0
 					    	a = 500 + (500 * @counter)
