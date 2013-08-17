@@ -37,9 +37,7 @@ class PlayedHole < ActiveRecord::Base
                                          :greater_than_or_equal_to => 0,
                                          :less_than_or_equal_to    => 1 },
                   :allow_nil => true                                       
-  validates :bunker, :numericality => { :only_integer => true,
-                                         :greater_than_or_equal_to => 0,
-                                         :less_than_or_equal_to    => 1 },
+  validates :bunker, :numericality => { :only_integer => true },
                       :allow_nil => true
   validates :OB, :numericality => { :only_integer => true,
                                          :greater_than_or_equal_to => 0,

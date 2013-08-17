@@ -1,11 +1,5 @@
 <h1><%= "Hole ##{@hole.number} - Par #{@par.par} - #{@hole.distance} yards" %></h1>
 
-<h3>How'd you do?</h3>
-
-<br><br>
-
-<%= @hole.inspect %>
-
 <%= form_for(@played_hole) do |f| %>
 
 	<%= f.hidden_field :round_id, value: @round_id %>
@@ -14,28 +8,30 @@
 	<%= f.hidden_field :tee_id, value: @tee_id %>
 	<%= f.hidden_field :course_id, value: @course_id %>
 
+
+	<%= f.label :strokes, "How many strokes?" %>
+	<%= f.select(:strokes, options_for_select(generate_strokes_array(@par.par), selected: @par.par)) %>
+
+	<%= f.label :putts, "How many putts?" %>
+	<%= f.select(:putts, generate_putts_array(5)) %>
+
+	<%= f.label :GIR, "Green in Regulation?" %>
+	<%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
+
 	<% if @par.par > 3 %>
 		<%= f.label :fairway_id, "Fairway Result?" %>
 		<%= f.select(:fairway_id, [['Center', 0], ['Right', 1], ['Left', 2]]) %>
 	<% end %>
 
-	<%= f.label :GIR, "Green in Regulation?" %>
-	<%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
+	<%= f.check_box(:bunker) %>
+	<%= f.label(:bunker, "Went in bunker") %>
 
-	<%= f.label :putts, "How many putts?" %>
-	<%= f.select(:putts, [['0',0],['1',1],['2',2]]) %>
+	<%= f.check_box(:OB) %>
+	<%= f.label(:OB, "Went O.B.") %>
 
-	<%= f.label :strokes, "How many strokes?" %>
-	<%= f.select(:strokes, [['1',1],['2',2],['3',3],['4',4]]) %>
+	<br>
 
 	<%= f.submit "Next Hole", class: "btn btn-large btn-success" %>
 
 <% end %> 
 
-
-
-<br><br><br><br>
-
-<%= render 'form' %>
-
-<%= link_to 'Back', played_holes_path %>

@@ -39,8 +39,8 @@ class PlayedHolesController < ApplicationController
                                   putts: params[:played_hole][:putts],
                                   strokes: params[:played_hole][:strokes],
                                   scramble: nil,
-                                  bunker: nil,
-                                  :OB => nil)
+                                  bunker: params[:played_hole][:bunker],
+                                  :OB => params[:played_hole][:OB])
 
     if @played_hole.save
       flash[:success] = "Successfully stored hole!"
@@ -50,7 +50,10 @@ class PlayedHolesController < ApplicationController
                                        course_id: params[:played_hole][:course_id])
     else
       flash[:error] = @played_hole.errors.full_messages
-      render action: 'new'
+            redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
+                                       hole_number: params[:played_hole][:hole_number], 
+                                       tee_id: params[:played_hole][:tee_id], 
+                                       course_id: params[:played_hole][:course_id])
     end
 
   end
