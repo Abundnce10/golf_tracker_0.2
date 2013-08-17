@@ -1,7 +1,56 @@
 <p id="notice"><%= notice %></p>
 
 
+<h1><%= @course.name %></h1>
+
+<h2>Played: <b><%= @round.date_played.strftime('%a %d %b %Y') %></b><%= "  |  #{time_ago_in_words(@round.created_at.in_time_zone("Pacific Time (US & Canada)"))} ago" %></h2>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Hole</th>
+			<th>Distance</th>
+			<th>Par</th>
+			<th>Putts</th>
+			<th>Strokes</th>
+			<th>To Par</th>
+		</tr>
+	</thead>
+	<tbody>
+
+		<% @table_stats.each do |t| %>
+		
+			<tr>
+
+				<th><%= "Hole ##{t[0]}" %></th>
+				<th><%= "#{t[1]} yds" %></th>
+				<th>X</th>
+				<th><%= t[2] %></th>
+				<th><%= t[3] %></th>
+				<th>+/-X</th>
+
+			</tr>
+
+		<% end %>
+	</tbody>
+</table>
+
+
+
+<br><br><br><br>
+
 <%= @round.inspect %>
 
-<%= @courses.inspect %>
+<br><br>
+
+<%= @course.inspect %>
+
+<br><br>
+
+<%= @played_holes.inspect %>
+
+<br><br>
+
+<%= @holes.inspect %>
 

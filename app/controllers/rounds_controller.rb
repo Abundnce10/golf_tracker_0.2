@@ -3,17 +3,22 @@ class RoundsController < ApplicationController
   def index
     @rounds = Round.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @rounds }
-    end
+    @courses = Course.joins(:rounds).where(rounds: { user_id: current_user})
+
+
   end
 
 
   def show
     @round = Round.find(params[:id])
+    @course = Course.joins(:rounds).where(rounds: { course_id: @round.course_id }).first
+  
+    @played_holes = PlayedHole.where(round_id: @round.id)
 
-    @courses = Course.joins(:rounds).where(rounds: { user_id: current_user})
+    @table_stats = []
+    @played_holes.each do |ph|
+      @table_stats.push([ph.hole.number, ph.hole.distance, ph.putts, ph.strokes])
+    end
   end
 
 
