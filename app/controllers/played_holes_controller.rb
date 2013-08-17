@@ -39,7 +39,8 @@ class PlayedHolesController < ApplicationController
                                   strokes: params[:played_hole][:strokes],
                                   scramble: nil,
                                   bunker: params[:played_hole][:bunker],
-                                  :OB => params[:played_hole][:OB])
+                                  :OB => params[:played_hole][:OB],
+                                  score_change: params[:played_hole][:strokes].to_i - params[:played_hole][:hole_par].to_i)
 
     if @played_hole.save
       flash[:success] = "Successfully stored hole!"
