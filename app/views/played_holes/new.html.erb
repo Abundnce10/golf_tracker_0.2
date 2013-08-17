@@ -1,5 +1,6 @@
 <h1><%= "Hole ##{@hole.number} - Par #{@hole.par} - #{@hole.distance} yards" %></h1>
 
+
 <%= form_for(@played_hole) do |f| %>
 
 	<%= f.hidden_field :round_id, value: @round_id %>
@@ -7,6 +8,7 @@
 	<%= f.hidden_field :hole_number, value: @hole.number %>
 	<%= f.hidden_field :tee_id, value: @tee_id %>
 	<%= f.hidden_field :course_id, value: @course_id %>
+	<%= f.hidden_field :hole_par, value: @hole.par %>
 
 
 	<%= f.label :strokes, "How many strokes?" %>

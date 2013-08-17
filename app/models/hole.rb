@@ -13,7 +13,7 @@
 #
 
 class Hole < ActiveRecord::Base
-  attr_accessible :course_id, :distance, :number, :tee_id
+  attr_accessible :course_id, :distance, :number, :par, :tee_id
 
   belongs_to :course, dependent: :destroy
   belongs_to :tee
