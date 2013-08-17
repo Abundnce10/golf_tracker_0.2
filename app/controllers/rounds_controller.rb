@@ -9,16 +9,13 @@ class RoundsController < ApplicationController
     end
   end
 
-  # GET /rounds/1
-  # GET /rounds/1.json
+
   def show
     @round = Round.find(params[:id])
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @round }
-    end
+    @courses = Course.joins(:rounds).where(rounds: { user_id: current_user})
   end
+
 
   def new
     @round = Round.new
@@ -30,8 +27,9 @@ class RoundsController < ApplicationController
       @user_handicap_id = @user_handicap.last.id
     end
 
+    # SELECT DISTINCT(tee_id) FROM Tees as t INNER JOIN Holes as h WHERE h.course_id = 14934;
     @tees = []
-    Tee.joins(:holes).where(holes: { course_id: 1 }).uniq.each do |t|
+    Tee.joins(:holes).where(holes: { course_id: @course.id }).uniq.each do |t|
       @tees.push([t.tee_type, t.id])
     end
 
