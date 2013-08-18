@@ -5,6 +5,7 @@ CoreApp::Application.routes.draw do
   resources :courses
   resources :rounds
   resources :played_holes
+  resources :round_notes
 
   root :to => 'static_pages#home'
 

@@ -2,6 +2,7 @@
 
 
 <h1><%= @course.name %></h1>
+<% @par = 0 %>
 
 <h2>Played: <b><%= @round.date_played.strftime('%a %d %b %Y') %></b><%= "  |  #{time_ago_in_words(@round.created_at.in_time_zone("Pacific Time (US & Canada)"))} ago" %></h2>
 
@@ -15,6 +16,7 @@
 			<th>Strokes</th>
 			<th>Putts</th>
 			<th>To Par</th>
+			<th>Aggregate</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -23,18 +25,85 @@
 		
 			<tr>
 
+				<% @par = t[2].to_i - t[3].to_i  %>
+
 				<th><%= "Hole ##{t[0]}" %></th>
 				<th><%= "#{t[1]} yds" %></th>
-				<th>X</th>
-				<th><%= t[3] %></th>
 				<th><%= t[2] %></th>
-				<th>+/-X</th>
+				<th><%= t[3] %></th>
+				<th><%= t[4] %></th>
+				<th><%= t[5] %></th>
+				<th><b><%= @par %></b></th>
 
 			</tr>
 
 		<% end %>
 	</tbody>
 </table>
+
+
+
+
+
+<br><br><br><br>
+
+<div>  
+  <button id="btnInit" >Monitor my location</button>  
+  <button id="btnStop" >Stop monitoring</button>  
+</div>
+<div id="info"></div>
+
+<script>
+    jQuery(window).ready(function(){
+        jQuery("#btnInit").click(initiate_watchlocation);
+        jQuery("#btnStop").click(stop_watchlocation);
+    });
+    var watchProcess = null;
+
+    function initiate_watchlocation() {
+    	if (watchProcess == null) {  
+        	watchProcess = navigator.geolocation.watchPosition(handle_geolocation_query, handle_errors);  
+    	}  
+    }
+
+    function stop_watchlocation() {
+    	if (watchProcess != null)  
+	    {  
+	        navigator.geolocation.clearWatch(watchProcess);  
+	        watchProcess = null;  
+	    } 
+    }
+
+    function handle_errors(error)
+    {
+        switch(error.code)
+        {
+            case error.PERMISSION_DENIED: alert("user did not share geolocation data");
+            break;
+            case error.POSITION_UNAVAILABLE: alert("could not detect current position");
+            break;
+            case error.TIMEOUT: alert("retrieving position timedout");
+            break;
+            default: alert("unknown error");
+            break;
+        }
+    }
+
+    function handle_geolocation_query(position) {
+	    var text = "Latitude: "  + position.coords.latitude  + "<br/>" +  
+           "Longitude: " + position.coords.longitude + "<br/>" +  
+           "Accuracy: "  + position.coords.accuracy  + "m<br/>" +  
+           "Time: " + new Date(position.timestamp);  
+		jQuery("#info").html(text);  
+		var image_url = "http://maps.google.com/maps/api/staticmap?sensor=false&center=" + position.coords.latitude + ',' + position.coords.longitude +  
+		                "&zoom=14&size=300x400&markers=color:blue|label:S|" + position.coords.latitude + ',' + position.coords.longitude;  
+		jQuery("#map").remove();  
+		jQuery(document.body).append(  
+		    jQuery(document.createElement("img")).attr("src", image_url).attr('id','map')  
+		); 
+    }
+</script>
+
 
 
 
@@ -53,4 +122,3 @@
 <br><br>
 
 <%= @holes.inspect %>
-
