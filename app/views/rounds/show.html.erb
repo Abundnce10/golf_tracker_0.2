@@ -2,7 +2,7 @@
 
 
 <h1><%= @course.name %></h1>
-<% @par = 0 %>
+<% @round_score = 0 %>
 
 <h2>Played: <b><%= @round.date_played.strftime('%a %d %b %Y') %></b><%= "  |  #{time_ago_in_words(@round.created_at.in_time_zone("Pacific Time (US & Canada)"))} ago" %></h2>
 
@@ -25,7 +25,7 @@
 		
 			<tr>
 
-				<% @par = t[2].to_i - t[3].to_i  %>
+				<% @round_score = t[3].to_i - t[2].to_i  %>
 
 				<th><%= "Hole ##{t[0]}" %></th>
 				<th><%= "#{t[1]} yds" %></th>
@@ -33,7 +33,7 @@
 				<th><%= t[3] %></th>
 				<th><%= t[4] %></th>
 				<th><%= t[5] %></th>
-				<th><b><%= @par %></b></th>
+				<th><b><%= @round_score %></b></th>
 
 			</tr>
 
