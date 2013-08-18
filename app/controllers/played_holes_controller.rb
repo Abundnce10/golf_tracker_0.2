@@ -24,6 +24,8 @@ class PlayedHolesController < ApplicationController
 
   end
 
+
+
   def create
     @played_hole = PlayedHole.new(round_id: params[:played_hole][:round_id],
                                   hole_id: params[:played_hole][:hole_id],
@@ -37,19 +39,43 @@ class PlayedHolesController < ApplicationController
                                   score_change: params[:played_hole][:strokes].to_i - params[:played_hole][:hole_par].to_i)
 
     if @played_hole.save
-      flash[:success] = "Successfully stored hole!"
-      redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
-                                       hole_number: params[:played_hole][:hole_number].to_i + 1, 
-                                       tee_id: params[:played_hole][:tee_id], 
-                                       course_id: params[:played_hole][:course_id])
+
+      # Last Hole to Input?
+      if params[:played_hole][:hole_number].to_i == 9 or params[:played_hole][:hole_number].to_i == 18
+
+        @round = Round.find(params[:played_hole][:round_id])
+        @course_holes = Hole.where({course_id: @round.course_id, tee_id: @round.tee_id})
+        @played_holes = @round.played_holes
+        
+        # If so, send to Round#show
+        if @played_holes.length == @course_holes.length
+          flash[:success] = "Successfully stored hole!"
+          redirect_to round_path(params[:played_hole][:round_id])
+        # Else Sned to Next PlayedHole
+        else
+          flash[:success] = "Successfully stored hole!"
+          redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
+                                           hole_number: params[:played_hole][:hole_number].to_i + 1, 
+                                           tee_id: params[:played_hole][:tee_id], 
+                                           course_id: params[:played_hole][:course_id])
+        end
+      # More Holes to Input
+      else
+        flash[:success] = "Successfully stored hole!"
+        redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
+                                         hole_number: params[:played_hole][:hole_number].to_i + 1, 
+                                         tee_id: params[:played_hole][:tee_id], 
+                                         course_id: params[:played_hole][:course_id])
+      end
+
     else
+
       flash[:error] = @played_hole.errors.full_messages
             redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
                                        hole_number: params[:played_hole][:hole_number], 
                                        tee_id: params[:played_hole][:tee_id], 
                                        course_id: params[:played_hole][:course_id])
     end
-
   end
 
 

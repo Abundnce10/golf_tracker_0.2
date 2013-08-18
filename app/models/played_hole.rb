@@ -22,7 +22,7 @@ class PlayedHole < ActiveRecord::Base
 
   belongs_to :fairway
   belongs_to :hole
-  belongs_to :round, dependent: :destroy
+  belongs_to :round
   has_many   :putt_details
   has_many   :approach_details
   has_many   :drive_details
