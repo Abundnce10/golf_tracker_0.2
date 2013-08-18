@@ -11,4 +11,69 @@ module RoundsHelper
 		end
 		return @starting_arr
 	end
+
+	def generate_score_title(score_change, par)
+		if par.to_i == 4
+			case score_change.to_i
+			when -3
+				return "Hole in One"
+			when -2
+				return "Eagle"
+			when -1
+				return "Birdie"
+			when 0
+				return "Par"
+			when 1
+				return "Bogey"
+			when 2
+				return "Double Bogey"
+			when 3
+				return "Triple Bogey"
+			when 4
+				return "Snowman"
+			else
+				return "Off the Charts"
+			end
+		elsif par.to_i == 3
+			case score_change.to_i
+			when -2
+				return "Hole in One"
+			when -1
+				return "Birdie"
+			when 0
+				return "Par"
+			when 1
+				return "Bogey"
+			when 2
+				return "Double Bogey"
+			when 3
+				return "Triple Bogey"
+			else
+				return "Off the Charts"
+			end
+		else
+			case score_change.to_i
+			when -3
+				return "Double Eagle"
+			when -2
+				return "Eagle"
+			when -1
+				return "Birdie"
+			when 0
+				return "Par"
+			when 1
+				return "Bogey"
+			when 2
+				return "Double Bogey"
+			when 3
+				return "Triple Bogey"
+			when 4
+				return "Snowman"
+			when 5
+				return "Time to Go Home"
+			else
+				return "Off the Charts"
+			end
+		end
+	end
 end

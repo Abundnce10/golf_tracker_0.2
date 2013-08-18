@@ -1,6 +1,58 @@
 <h1>Editing round</h1>
 
-<%= render 'form' %>
 
-<%= link_to 'Show', @round %> |
-<%= link_to 'Back', rounds_path %>
+<%= link_to "Round Overview", round_path(@round.id), class: "btn btn-large btn-success pull-right" %>
+<h4>Hole Details:</h4>
+
+<% @round_score = 0 %>
+<table class="table table-condensed" id="round_show">
+	<thead>
+		<tr>
+			<th>Hole</th>
+			<th>Distance</th>
+			<th>Par</th>
+			<th>Strokes</th>
+			<th>Putts</th>
+			<th>Result</th>
+			<th>Overall</th>
+			<th>Edit</th>
+		</tr>
+	</thead>
+	<tbody>
+
+		<% @holes.each do |h| %>
+
+			<% @ph_index = -1 %>
+			<tr>
+				<td><%= "Hole ##{h.number}" %></td>
+				<td><%= "#{h.distance} yds" %></td>
+				<td><%= h.par %></td>
+
+				<% @counter = 0 %>
+				<% @played_holes.each do |ph| %>
+					<% if ph.hole_id == h.id %>
+						<% @ph_index = @counter %>
+					<% end %>
+					<% @counter += 1 %>
+				<% end %>
+
+				<% if @ph_index >= 0 %>
+					<% @round_score += @played_holes[@ph_index].score_change %>
+					<td><%= @played_holes[@ph_index].strokes %></td>
+					<td><%= @played_holes[@ph_index].putts %></td>
+					<td><%= generate_score_title(@played_holes[@ph_index].score_change, h.par) %></td>
+					<td><%= @round_score %></td>
+					<td><%= link_to "Edit", edit_played_hole_path(@played_holes[@ph_index].id) %></td>
+				<% else %>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><b><%= link_to "Add", new_played_hole_path(round_id: @round.id, hole_number: h.number, tee_id: @round.tee_id, course_id: @course.id) %></b></td>
+				<% end %>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+
+

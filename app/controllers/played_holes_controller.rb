@@ -24,12 +24,6 @@ class PlayedHolesController < ApplicationController
 
   end
 
-  # GET /played_holes/1/edit
-  def edit
-    @played_hole = PlayedHole.find(params[:id])
-  end
-
-
   def create
     @played_hole = PlayedHole.new(round_id: params[:played_hole][:round_id],
                                   hole_id: params[:played_hole][:hole_id],
@@ -59,29 +53,37 @@ class PlayedHolesController < ApplicationController
   end
 
 
-  def update
-    @played_hole = PlayedHole.find(params[:id])
 
-    respond_to do |format|
-      if @played_hole.update_attributes(params[:played_hole])
-        format.html { redirect_to @played_hole, notice: 'Played hole was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @played_hole.errors, status: :unprocessable_entity }
-      end
+
+  def edit
+    @played_hole = PlayedHole.find(params[:id])
+    @hole = Hole.find(@played_hole.hole_id)
+  end
+
+
+
+  def update
+    @played_hole = PlayedHole.find(params[:played_hole][:played_hole_id])
+
+    if @played_hole.update_attributes({fairway_id: params[:played_hole][:fairway_id],
+                                       :GIR => params[:played_hole][:GIR],
+                                       putts: params[:played_hole][:putts],
+                                       strokes: params[:played_hole][:strokes],
+                                       bunker: params[:played_hole][:bunker],
+                                       :OB => params[:played_hole][:OB],
+                                       score_change: params[:played_hole][:strokes].to_i - params[:played_hole][:hole_par].to_i})
+
+      flash[:success] = "Successfully updated hole!"
+      redirect_to round_path(params[:played_hole][:round_id])
+    else
+      flash[:error] = @played_hole.errors.full_messages
+      redirect_to edit_played_hole_path(params[:played_hole][:round_id])
     end
   end
 
-  # DELETE /played_holes/1
-  # DELETE /played_holes/1.json
+
   def destroy
     @played_hole = PlayedHole.find(params[:id])
     @played_hole.destroy
-
-    respond_to do |format|
-      format.html { redirect_to played_holes_url }
-      format.json { head :no_content }
-    end
   end
 end

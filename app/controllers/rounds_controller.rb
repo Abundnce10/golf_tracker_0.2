@@ -17,8 +17,19 @@ class RoundsController < ApplicationController
 
     @table_stats = []
     @played_holes.each do |ph|
-      @table_stats.push([ph.hole.number, ph.hole.distance, ph.hole.par, ph.strokes, ph.putts, ph.score_change])
+      @table_stats.push([ph.hole.number, ph.hole.distance, ph.hole.par, ph.strokes, ph.putts, ph.score_change, ph.id])
     end
+  end
+
+
+
+  def edit
+    @round = Round.find(params[:id])
+    @course = Course.joins(:rounds).where(rounds: { course_id: @round.course_id }).first
+    
+    @holes = Hole.where({course_id: @round.course_id, tee_id: @round.tee_id}).order("number ASC")
+    @played_holes = PlayedHole.where(round_id: @round.id)    
+    
   end
 
 
@@ -95,17 +106,6 @@ class RoundsController < ApplicationController
 
     end
 
-  end
-
-
-
-
-
-
-
-  # GET /rounds/1/edit
-  def edit
-    @round = Round.find(params[:id])
   end
 
 
