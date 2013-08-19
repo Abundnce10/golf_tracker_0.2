@@ -45,4 +45,6 @@ class PlayedHole < ActiveRecord::Base
                                          :less_than_or_equal_to    => 1 },
                  :allow_nil => true
 
+  validates_uniqueness_of :round_id, :scope => :hole_id
+
 end

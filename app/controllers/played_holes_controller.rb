@@ -70,7 +70,8 @@ class PlayedHolesController < ApplicationController
 
     else
 
-      flash[:error] = @played_hole.errors.full_messages
+      flash[:error] = "You've already created ths hole."
+      #flash[:error] = @played_hole.errors.full_messages
             redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
                                        hole_number: params[:played_hole][:hole_number], 
                                        tee_id: params[:played_hole][:tee_id], 
