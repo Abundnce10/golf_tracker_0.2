@@ -2291,3 +2291,1059 @@ File 21, Course_id: 14869, Red Cloud Golf Course
 	course_id:32145	Chambers Bay Golf Course
 	course_id:12589	Kayak Point Golf Course
 	course_id:14918	Legion Memorial Golf Course
+2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+2013-08-18 22:32:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+2013-08-18 22:32:57 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+2013-08-18 22:33:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:57 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+2013-08-18 22:33:05 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:33:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:57 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+2013-08-18 22:33:09 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:33:05 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:33:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:57 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+	course_id:12589	Kayak Point Golf Course
+2013-08-18 22:33:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:33:09 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:33:05 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:33:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:57 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:36 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:25 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:21 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:17 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:13 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:10 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:06 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:32:01 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:58 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:54 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:47 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:43 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:39 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:35 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:31 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:28 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:24 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:20 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:31:11 -0700	undefined method `divmod' for 2013-08-18 22:31:11 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+	course_id:12589	Kayak Point Golf Course
+	course_id:14918	Legion Memorial Golf Course
+2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+2013-08-18 22:47:07 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+2013-08-18 22:47:11 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:07 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+2013-08-18 22:47:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:11 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:07 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+2013-08-18 22:47:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:11 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:07 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+2013-08-18 22:47:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:11 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:07 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+	course_id:12589	Kayak Point Golf Course
+2013-08-18 22:47:27 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:11 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:07 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:47:03 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:59 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:55 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:51 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:44 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:40 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:33 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:30 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:26 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:23 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:19 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:15 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:12 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:08 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:04 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:46:00 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:56 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:52 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:48 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:45 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:41 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:37 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:32 -0700	undefined local variable or method `name' for main:Object,file:2013-08-18 22:45:29 -0700	undefined method `divmod' for 2013-08-18 22:45:29 -0700:Time,file:32	course_id:12770	Lake Chelan Golf Course
+	course_id:8059	Banks Lake Golf & Country Club
+	course_id:10315	Harbour Pointe Golf Club
+	course_id:9741	Cascade-Gold Mountain Golf Course
+	course_id:12758	Kitsap Golf & Country Club
+	course_id:9743	Olympic-Gold Mountain Golf Course
+	course_id:8202	Bellevue Golf Course
+	course_id:8224	Broadmoor Golf Club
+	course_id:10271	China Creek-Golf Club at Newcastle
+	course_id:10276	Coal Creek-Golf Club at Newcastle
+	course_id:16056	Coyote Creek-Willows Run Golf Club
+	course_id:16059	Eagles Talon-Willows Run Golf Club
+	course_id:12537	Executive-Jefferson Park Golf Club
+	course_id:10298	Greenlake Golf Course
+	course_id:13641	Overlake Golf & Country Club
+	course_id:12193	Par Three-Jackson Park Golf Course
+	course_id:12195	Regulation-Jackson Park Golf Course
+	course_id:12548	Regulation-Jefferson Park Golf Club
+	course_id:13291	Nile Shrine Golf Course
+	course_id:13272	Mount Si Golf Course
+	course_id:15441	Snoqualmie Falls Golf Course
+	course_id:15912	TPC at Snoqualmie Ridge
+	course_id:12185	Interbay Golf Center
+	course_id:16185	West Seattle Golf Course
+	course_id:12170	Horseshoe Lake Golf Course
+	course_id:12373	McCormick Woods Golf Course
+	course_id:16035	Trophy Lake Golf & Casting Club
+	course_id:32249	White Horse Golf Club
+	course_id:7354	Alderbrook Golf Club
+	course_id:32145	Chambers Bay Golf Course
+	course_id:12589	Kayak Point Golf Course
+	course_id:14918	Legion Memorial Golf Course

@@ -625,47 +625,45 @@ namespace :import do
 
 		end # End of Files Loop
 
-		# Adjust names of a few courses
+		puts "Adjusting course names..."
 
 		@course = Course.find_by_name("Cascade-Gold Mountain Golf Course")
 		@course.name = "Gold Mountain Golf Course - Cascade"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("Olympic-Gold Mountain Golf Course")
 		@course.name = "Gold Mountain Golf Course - Olympic"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("Regulation-Jefferson Park Golf Club")
 		@course.name = "Jefferson Park Golf Club"
-		@course.Save
+		@course.save
 
-		@course = Course.find_by_name("Regulation-Jackson Park Golf Club")
+		@course = Course.find_by_name("Regulation-Jackson Park Golf Course")
 		@course.name = "Jackson Park Golf Club"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("Coyote Creek-Willows Run Golf Club")
 		@course.name = "Willows Run Golf Club - Coyote Creek"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("Eagles Talon-Willows Run Golf Club")
 		@course.name = "Willows Run Golf Club - Eagles Talon"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("China Creek-Golf Club at Newcastle")
 		@course.name = "Newcastle - China Creek"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("Coal Creek-Golf Club at Newcastle")
 		@course.name = "Newcastle - Coal Creek"
-		@course.Save
+		@course.save
 
 		@course = Course.find_by_name("Executive-Jefferson Park Golf Club")
 		@course.name = "Jefferson Park Golf Club - Executive Par 3"
-		@course.Save
+		@course.save
 
-		puts "\n\nFinished Importing Courses!  Whew!\n"
-		puts "It took #{convert_time(t1)}\n\n"
-		File.open("./import_wa_logs.txt", 'a') {|f| f.write(Time.new.to_s + "\tFinished") }
+		puts "Finished updating names"
 
 	end
 
