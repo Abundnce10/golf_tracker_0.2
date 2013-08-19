@@ -27,18 +27,80 @@ class PlayedHolesController < ApplicationController
 
 
   def create
+
+    # Calculate scramble
+    @scramble = nil
+    if params[:played_hole][:GIR] == 0
+      @scramble = 0
+      if params[:played_hole][:strokes] == params[:played_hole][:hole_par]
+        @scramble = 1
+      end
+    end
+
     @played_hole = PlayedHole.new(round_id: params[:played_hole][:round_id],
                                   hole_id: params[:played_hole][:hole_id],
                                   fairway_id: params[:played_hole][:fairway_id],
                                   :GIR => params[:played_hole][:GIR],
                                   putts: params[:played_hole][:putts],
                                   strokes: params[:played_hole][:strokes],
-                                  scramble: nil,
+                                  scramble: @scramble,
                                   bunker: params[:played_hole][:bunker],
                                   :OB => params[:played_hole][:OB],
                                   score_change: params[:played_hole][:strokes].to_i - params[:played_hole][:hole_par].to_i)
 
     if @played_hole.save
+
+      # Update RoundSummary
+      @round_summary = RoundSummary.find_by_round_id(params[:played_hole][:round_id])
+      
+      # Front 9?
+      if params[:played_hole][:hole_number].to_i < 10
+        @round_summary.total_strokes += params[:played_hole][:strokes].to_i
+        @round_summary.front_9_strokes += params[:played_hole][:strokes].to_i
+        @round_summary.total_putts += params[:played_hole][:putts].to_i
+        @round_summary.front_9_putts += params[:played_hole][:putts].to_i
+        @round_summary.GIRs_possible += 1
+        @round_summary.GIRs_hit += params[:played_hole][:GIR].to_i
+        @round_summary.sand_shots += params[:played_hole][:bunker].to_i
+        @round_summary.OBs += params[:played_hole][:OB].to_i
+        if params[:played_hole][:hole_par].to_i > 3
+          @round_summary.fairways_hit += 1
+          if params[:played_hole][:fairway_id].to_i == 1
+            @round_summary.fairways_hit += 1
+          end
+        end
+        if !@scramble.nil?
+          @round_summary.scrambles_possible += 1
+          if @scramble == 1
+            @round_summary.scrambles_successful += 1
+          end
+        end
+        @round_summary.save
+
+      # Back 9
+      else
+        @round_summary.total_strokes += params[:played_hole][:strokes].to_i
+        @round_summary.back_9_strokes += params[:played_hole][:strokes].to_i
+        @round_summary.total_putts += params[:played_hole][:putts].to_i
+        @round_summary.back_9_puuts += params[:played_hole][:putts].to_i
+        @round_summary.GIRs_possible += 1
+        @round_summary.GIRs_hit += params[:played_hole][:GIR].to_i
+        @round_summary.sand_shots += params[:played_hole][:bunker].to_i
+        @round_summary.OBs += params[:played_hole][:OB].to_i
+        if params[:played_hole][:hole_par].to_i > 3
+          @round_summary.fairways_hit += 1
+          if params[:played_hole][:fairway_id].to_i == 1
+            @round_summary.fairways_hit += 1
+          end
+        end
+        if !@scramble.nil?
+          @round_summary.scrambles_possible += 1
+          if @scramble == 1
+            @round_summary.scrambles_successful += 1
+          end
+        end
+        @round_summary.save
+      end
 
       # Last Hole to Input?
       if params[:played_hole][:hole_number].to_i == 9 or params[:played_hole][:hole_number].to_i == 18

@@ -10,8 +10,8 @@ module PlayedHolesHelper
 
 	def generate_putts_array(num)
 		@putts_arr = []
-		num.times.each do |i|
-			@putts_arr.push(["#{i+1}", i+1])
+		(num+1).times.each do |i|
+			@putts_arr.push(["#{i}", i])
 		end
 		return @putts_arr
 	end

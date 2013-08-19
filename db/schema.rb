@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130817211234) do
+ActiveRecord::Schema.define(:version => 20130819043551) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -186,11 +186,12 @@ ActiveRecord::Schema.define(:version => 20130817211234) do
     t.integer  "total_putts"
     t.integer  "front_9_putts"
     t.integer  "back_9_putts"
-    t.decimal  "scrambling_percentage"
     t.integer  "sand_shots"
     t.integer  "OBs"
-    t.datetime "created_at",            :null => false
-    t.datetime "updated_at",            :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+    t.integer  "scrambles_possible"
+    t.integer  "scrambles_successful"
   end
 
   create_table "rounds", :force => true do |t|

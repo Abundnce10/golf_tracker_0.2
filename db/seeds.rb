@@ -23,7 +23,8 @@ genders.each do |gender|
 end
 
 # Import Fairways
-fairways = ["Long Middle", "Middle", "Short Middle", "Long Right", "Right", "Short Right", "Long Far Right", "Far Right", "Short Far Right", "Long Left", "Left", "Short Left", "Long Far Left", "Far Left", "Short Far Left"]
+#fairways = ["Long Middle", "Middle", "Short Middle", "Long Right", "Right", "Short Right", "Long Far Right", "Far Right", "Short Far Right", "Long Left", "Left", "Short Left", "Long Far Left", "Far Left", "Short Far Left"]
+fairways = ["Center", "Left", "Right"]
 
 puts "Importing Fairway locations for a drive off the tee..."
 

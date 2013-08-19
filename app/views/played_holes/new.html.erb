@@ -1,9 +1,9 @@
 <h1><%= "Hole ##{@hole.number} - Par #{@hole.par} - #{@hole.distance} yards" %></h1>
 
 <div class="row">
-	<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large" %></div>
-	<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-success" %></div>
-	<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large" %></div>
+	<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large btn-warning" %></div>
+	<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+	<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large btn-warning" %></div>
 </div>
 
 <br>
@@ -29,7 +29,7 @@
 
 	<% if @hole.par > 3 %>
 		<%= f.label :fairway_id, "Fairway Result?" %>
-		<%= f.select(:fairway_id, [['Center', 0], ['Right', 1], ['Left', 2]]) %>
+		<%= f.select(:fairway_id, [['Center', 1], ['Left', 2], ['Right', 3]]) %>
 	<% end %>
 
 	<%= f.check_box(:bunker) %>

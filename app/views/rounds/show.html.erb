@@ -9,7 +9,7 @@
 
 
 <h4>Round Summary:</h4>
-<br><br>
+<%= @round_summary.inspect %>
 <!--
 <table>
 	<thead>
@@ -29,7 +29,7 @@
 </table>
 -->
 
-
+<br><br>
 
 <%= link_to "Edit Round Details", edit_round_path(@round.id), class: "btn btn-large pull-right" %>
 <h4>Hole Details:</h4>
@@ -89,7 +89,6 @@
 
 	</tbody>
 </table>
-
 
 
 

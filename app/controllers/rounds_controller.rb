@@ -12,7 +12,8 @@ class RoundsController < ApplicationController
   def show
     @round = Round.find(params[:id])
     @course = Course.joins(:rounds).where(rounds: { course_id: @round.course_id }).first
-  
+    @round_summary = RoundSummary.find_by_round_id(@round.id)
+
     @played_holes = PlayedHole.where(round_id: @round.id)
 
     @table_stats = []
@@ -69,17 +70,36 @@ class RoundsController < ApplicationController
     @date_played = params[:round][:date_played]
     @hole_number = params[:round][:starting_hole]
 
-
-
+    # Save Round
     if @round.save
+      @round_summary = RoundSummary.new({
+          round_id: @round.id,
+          total_strokes: 0,
+          front_9_strokes: 0,
+          back_9_strokes: 0,
+          fairways_hit: 0,
+          fairways_possible: 0,
+          :GIRs_hit => 0,
+          :GIRs_possible => 0,
+          total_putts: 0,
+          front_9_putts: 0,
+          back_9_putts: 0,
+          scrambles_possible: 0,
+          scrambles_successful: 0,
+          sand_shots: 0,
+          :OBs => 0
+        })
 
-      flash[:success] = "Successfully started New Round!"
-      redirect_to new_played_hole_path(round_id: @round.id, hole_number: @hole_number, tee_id: @tee_id, course_id: @course_id)
-      #redirect_to round_path()  
+      # Create accompanying RoundSummary
+      if @round_summary.save
+        flash[:success] = "Successfully started New Round!"
+        redirect_to new_played_hole_path(round_id: @round.id, hole_number: @hole_number, tee_id: @tee_id, course_id: @course_id)
+      else
+        flash[:error] = "Sorry.  Try again."
+        redirect_to action: "new"
+      end
 
     else
-
-      #flash[:alert] = "Oops, there was an error."
       flash[:error] = @round.errors.full_messages
       
       @round = Round.new
