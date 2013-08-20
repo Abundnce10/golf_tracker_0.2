@@ -1,9 +1,17 @@
 <h1><%= "Hole ##{@hole.number} - Par #{@hole.par} - #{@hole.distance} yards" %></h1>
 
 <div class="row">
-	<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large btn-warning" %></div>
-	<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
-	<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large btn-warning" %></div>
+	<% if @hole.number == 1 %>
+		<div class="span3 offset5"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large btn-warning" %></div>
+	<% elsif @hole.number == 18 %>
+		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large btn-warning" %></div>
+		<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+	<% else %>
+		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large btn-warning" %></div>
+		<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large btn-warning" %></div>
+	<% end %>
 </div>
 
 <br>
@@ -22,7 +30,7 @@
 	<%= f.select(:strokes, options_for_select(generate_strokes_array(@hole.par), selected: @hole.par)) %>
 
 	<%= f.label :putts, "How many putts?" %>
-	<%= f.select(:putts, generate_putts_array(5)) %>
+	<%= f.select(:putts, options_for_select(generate_putts_array(5), selected: 1)) %>
 
 	<%= f.label :GIR, "Green in Regulation?" %>
 	<%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
@@ -32,11 +40,18 @@
 		<%= f.select(:fairway_id, [['Center', 1], ['Left', 2], ['Right', 3]]) %>
 	<% end %>
 
-	<%= f.check_box(:bunker) %>
-	<%= f.label(:bunker, "Went in bunker") %>
+	<br>
 
-	<%= f.check_box(:OB) %>
-	<%= f.label(:OB, "Went O.B.") %>
+	<div class="row">
+		<div class="span4 offset3">
+			<%= f.check_box(:bunker) %>
+			<%= f.label :bunker, "Went in bunker", class: "bunker_ob" %>
+		</div>
+		<div class="span4">
+			<%= f.check_box(:OB) %>
+			<%= f.label :OB, "Went O.B.", class: "bunker_ob" %>
+		</div>
+	</div>
 
 	<br>
 

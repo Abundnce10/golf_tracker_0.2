@@ -30,9 +30,9 @@ class PlayedHolesController < ApplicationController
 
     # Calculate scramble
     @scramble = nil
-    if params[:played_hole][:GIR] == 0
+    if params[:played_hole][:GIR].to_i == 0
       @scramble = 0
-      if params[:played_hole][:strokes] == params[:played_hole][:hole_par]
+      if params[:played_hole][:strokes].to_i <= params[:played_hole][:hole_par].to_i
         @scramble = 1
       end
     end
@@ -82,7 +82,7 @@ class PlayedHolesController < ApplicationController
         @round_summary.total_strokes += params[:played_hole][:strokes].to_i
         @round_summary.back_9_strokes += params[:played_hole][:strokes].to_i
         @round_summary.total_putts += params[:played_hole][:putts].to_i
-        @round_summary.back_9_puuts += params[:played_hole][:putts].to_i
+        @round_summary.back_9_putts += params[:played_hole][:putts].to_i
         @round_summary.GIRs_possible += 1
         @round_summary.GIRs_hit += params[:played_hole][:GIR].to_i
         @round_summary.sand_shots += params[:played_hole][:bunker].to_i
@@ -113,11 +113,11 @@ class PlayedHolesController < ApplicationController
         if @played_holes.length == @course_holes.length
           flash[:success] = "Successfully stored hole!"
           redirect_to round_path(params[:played_hole][:round_id])
-        # Else Sned to Next PlayedHole
+        # Else Sned to Hole #1
         else
           flash[:success] = "Successfully stored hole!"
           redirect_to new_played_hole_path(round_id: params[:played_hole][:round_id], 
-                                           hole_number: params[:played_hole][:hole_number].to_i + 1, 
+                                           hole_number: 1, 
                                            tee_id: params[:played_hole][:tee_id], 
                                            course_id: params[:played_hole][:course_id])
         end

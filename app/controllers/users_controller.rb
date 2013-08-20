@@ -21,7 +21,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       sign_in @user
-      flash[:success] = "Welcome to the Core app"
+      flash[:success] = "Welcome to the CaddieHack app"
       redirect_to @user
     else
       render 'new'

@@ -640,7 +640,7 @@ namespace :import do
 		@course.save
 
 		@course = Course.find_by_name("Regulation-Jackson Park Golf Course")
-		@course.name = "Jackson Park Golf Club"
+		@course.name = "Jackson Park Golf Course"
 		@course.save
 
 		@course = Course.find_by_name("Coyote Creek-Willows Run Golf Club")
