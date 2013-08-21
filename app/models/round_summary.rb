@@ -21,10 +21,11 @@
 #  updated_at           :datetime         not null
 #  scrambles_possible   :integer
 #  scrambles_successful :integer
+#  score_to_par         :integer
 #
 
 class RoundSummary < ActiveRecord::Base
-  attr_accessible :GIRs_hit, :GIRs_possible, :OBs, :back_9_putts, :back_9_strokes, :fairways_hit, :fairways_possible, :front_9_putts, :front_9_strokes, :round_id, :sand_shots, :score_summary_id, :scrambles_possible, :scrambles_successful, :total_putts, :total_strokes
+  attr_accessible :GIRs_hit, :GIRs_possible, :OBs, :back_9_putts, :back_9_strokes, :fairways_hit, :fairways_possible, :front_9_putts, :front_9_strokes, :round_id, :sand_shots, :score_summary_id, :score_to_par, :scrambles_possible, :scrambles_successful, :total_putts, :total_strokes
 
   belongs_to :score_summary
   belongs_to :round

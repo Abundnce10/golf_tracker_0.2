@@ -75,6 +75,7 @@ class RoundsController < ApplicationController
       @round_summary = RoundSummary.new({
           round_id: @round.id,
           total_strokes: 0,
+          score_to_par: 0,
           front_9_strokes: 0,
           back_9_strokes: 0,
           fairways_hit: 0,

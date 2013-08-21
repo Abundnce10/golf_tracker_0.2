@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130819043551) do
+ActiveRecord::Schema.define(:version => 20130821044032) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -192,6 +192,7 @@ ActiveRecord::Schema.define(:version => 20130819043551) do
     t.datetime "updated_at",           :null => false
     t.integer  "scrambles_possible"
     t.integer  "scrambles_successful"
+    t.integer  "score_to_par"
   end
 
   create_table "rounds", :force => true do |t|

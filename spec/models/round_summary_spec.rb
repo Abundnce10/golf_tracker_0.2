@@ -21,6 +21,7 @@
 #  updated_at           :datetime         not null
 #  scrambles_possible   :integer
 #  scrambles_successful :integer
+#  score_to_par         :integer
 #
 
 require 'spec_helper'

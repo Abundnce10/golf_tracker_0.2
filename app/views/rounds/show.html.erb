@@ -9,34 +9,51 @@
 
 
 <h4>Round Summary:</h4>
-<%= @round_summary.inspect %>
-<!--
-<table>
+<table class="table table-condensed table-bordered round_show">
 	<thead>
 		<tr>
+			<th>Score</th>
+			<th>Total Strokes</th>
+			<th>Front 9</th>
+			<th>Back 9</th>
 			<th>Fairways Hit</th>
 			<th>GIRs</th>
 			<th>Putts</th>
+			<th>Front 9</th>
+			<th>Back 9</th>
+			<th>Scrambling %</th>
+			<th>Sand</th>
+			<th>O.B.</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th></th>
-			<th></th>
-			<th></th>
+			<th><%= @round_summary.score_to_par %></th>
+			<th><%= @round_summary.total_strokes %></th>
+			<th><%= @round_summary.front_9_strokes %></th>
+			<th><%= @round_summary.back_9_strokes %></th>
+			<th><%= "#{@round_summary.fairways_hit} / #{@round_summary.fairways_possible}" %></th>
+			<th><%= "#{@round_summary.GIRs_hit} / #{@round_summary.GIRs_possible}" %></th>
+			<th><%= @round_summary.total_putts %></th>
+			<th><%= @round_summary.front_9_putts %></th>
+			<th><%= @round_summary.back_9_putts %></th>
+			<th><%= "#{@round_summary.scrambles_successful} / #{@round_summary.scrambles_possible}" %></th>
+			<th><%= @round_summary.sand_shots %></th>
+			<th><%= @round_summary.OBs %></th>
 		</tr>
 	</tbody>
 </table>
--->
 
-<br><br>
+
+<br>
+
 
 <%= link_to "Edit Round Details", edit_round_path(@round.id), class: "btn btn-large pull-right" %>
 <h4>Hole Details:</h4>
 
 <br>
 
-<table class="table table-condensed" id="round_show">
+<table class="table table-condensed table-hover round_show">
 	<thead>
 		<tr>
 			<th>Hole</th>

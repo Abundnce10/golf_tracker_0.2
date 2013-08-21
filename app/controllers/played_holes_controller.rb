@@ -56,6 +56,7 @@ class PlayedHolesController < ApplicationController
       # Front 9?
       if params[:played_hole][:hole_number].to_i < 10
         @round_summary.total_strokes += params[:played_hole][:strokes].to_i
+        @round_summary.score_to_par += (params[:played_hole][:strokes].to_i - params[:played_hole][:hole_par].to_i)
         @round_summary.front_9_strokes += params[:played_hole][:strokes].to_i
         @round_summary.total_putts += params[:played_hole][:putts].to_i
         @round_summary.front_9_putts += params[:played_hole][:putts].to_i
@@ -64,7 +65,7 @@ class PlayedHolesController < ApplicationController
         @round_summary.sand_shots += params[:played_hole][:bunker].to_i
         @round_summary.OBs += params[:played_hole][:OB].to_i
         if params[:played_hole][:hole_par].to_i > 3
-          @round_summary.fairways_hit += 1
+          @round_summary.fairways_possible += 1
           if params[:played_hole][:fairway_id].to_i == 1
             @round_summary.fairways_hit += 1
           end
@@ -80,6 +81,7 @@ class PlayedHolesController < ApplicationController
       # Back 9
       else
         @round_summary.total_strokes += params[:played_hole][:strokes].to_i
+        @round_summary.score_to_par += (params[:played_hole][:strokes].to_i - params[:played_hole][:hole_par].to_i)
         @round_summary.back_9_strokes += params[:played_hole][:strokes].to_i
         @round_summary.total_putts += params[:played_hole][:putts].to_i
         @round_summary.back_9_putts += params[:played_hole][:putts].to_i
@@ -88,7 +90,7 @@ class PlayedHolesController < ApplicationController
         @round_summary.sand_shots += params[:played_hole][:bunker].to_i
         @round_summary.OBs += params[:played_hole][:OB].to_i
         if params[:played_hole][:hole_par].to_i > 3
-          @round_summary.fairways_hit += 1
+          @round_summary.fairways_possible += 1
           if params[:played_hole][:fairway_id].to_i == 1
             @round_summary.fairways_hit += 1
           end
@@ -103,7 +105,7 @@ class PlayedHolesController < ApplicationController
       end
 
       # Last Hole to Input?
-      if params[:played_hole][:hole_number].to_i == 9 or params[:played_hole][:hole_number].to_i == 18
+      if params[:played_hole][:hole_number].to_i == 18
 
         @round = Round.find(params[:played_hole][:round_id])
         @course_holes = Hole.where({course_id: @round.course_id, tee_id: @round.tee_id})
