@@ -18,7 +18,7 @@ class RoundsController < ApplicationController
 
     @table_stats = []
     @played_holes.each do |ph|
-      @table_stats.push([ph.hole.number, ph.hole.distance, ph.hole.par, ph.strokes, ph.putts, ph.score_change, ph.id])
+      @table_stats.push([ph.hole.number, ph.hole.distance, ph.hole.par, ph.strokes, ph.putts, ph.score_change, ph.id, ph.fairway_id, ph.GIR])
     end
   end
 

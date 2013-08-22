@@ -49,6 +49,7 @@
 
 
 <%= link_to "Edit Round Details", edit_round_path(@round.id), class: "btn btn-large pull-right" %>
+
 <h4>Hole Details:</h4>
 
 <br>
@@ -60,6 +61,8 @@
 			<th>Distance</th>
 			<th>Par</th>
 			<th>Your Score</th>
+			<th>Fairway</th>
+			<th>GIR</th>
 			<th>Putts</th>
 			<th>Result</th>
 			<th>Round Total</th>
@@ -82,6 +85,22 @@
 				<td><%= "#{t[1]} yds" %></td>
 				<td><%= t[2] %></td>
 				<td><%= t[3] %></td>
+				<td><% if t[7].nil? %>
+					<%= "-" %>
+					<% elsif t[7] == 1 %>
+					<%= "Center" %>
+					<% elsif t[7] == 2 %>
+					<%= "Left" %>
+					<% else %>
+					<%= "Right" %>
+					<% end %>
+				</td>
+				<td><% if t[8] == 0 %>
+					<%= "No" %>
+					<% else %>
+					<%= "Yes" %>
+					<% end %>
+				</td>
 				<td><%= t[4] %></td>
 				<td><%= generate_score_title(t[5], t[2]) %></td>
 				<td><b><%= @round_score %></b></td>
