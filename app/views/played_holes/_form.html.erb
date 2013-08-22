@@ -1,17 +1,42 @@
 <%= form_for(@played_hole) do |f| %>
-  <% if @played_hole.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@played_hole.errors.count, "error") %> prohibited this played_hole from being saved:</h2>
 
-      <ul>
-      <% @played_hole.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
+  <%= f.hidden_field :round_id, value: @round_id %>
+  <%= f.hidden_field :hole_id, value: @hole.id %>
+  <%= f.hidden_field :hole_number, value: @hole.number %>
+  <%= f.hidden_field :tee_id, value: @tee_id %>
+  <%= f.hidden_field :course_id, value: @course_id %>
+  <%= f.hidden_field :hole_par, value: @hole.par %>
+
+
+  <%= f.label :strokes, "How many strokes?" %>
+  <%= f.select(:strokes, options_for_select(generate_strokes_array(@hole.par), selected: @hole.par)) %>
+
+  <%= f.label :putts, "How many putts?" %>
+  <%= f.select(:putts, options_for_select(generate_putts_array(5), selected: 1)) %>
+
+  <%= f.label :GIR, "Green in Regulation?" %>
+  <%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
+
+  <% if @hole.par > 3 %>
+    <%= f.label :fairway_id, "Fairway Result?" %>
+    <%= f.select(:fairway_id, [['Center', 1], ['Left', 2], ['Right', 3]]) %>
   <% end %>
 
-  <div class="actions">
-    <%= f.submit %>
+  <br>
+
+  <div class="row">
+    <div class="span4 offset3">
+      <%= f.check_box(:bunker) %>
+      <%= f.label :bunker, "Went in bunker", class: "bunker_ob" %>
+    </div>
+    <div class="span4">
+      <%= f.check_box(:OB) %>
+      <%= f.label :OB, "Went O.B.", class: "bunker_ob" %>
+    </div>
   </div>
-<% end %>
+
+  <br>
+
+  <%= f.submit "Next Hole", class: "btn btn-large btn-success" %>
+
+<% end %> 
