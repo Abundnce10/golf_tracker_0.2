@@ -1,4 +1,6 @@
 class RoundsController < ApplicationController
+  before_filter :signed_in_user, only: [:index, :show, :edit, :update, :destroy]
+  before_filter :correct_user,   only: [:show, :edit, :update]
 
   def index
     @rounds = Round.all
@@ -157,4 +159,19 @@ class RoundsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+    def signed_in_user
+      unless signed_in?
+        store_location
+        redirect_to signin_url, notice: "Please sign in."
+      end
+    end
+
+    def correct_user
+      @user = Round.find(params[:id]).user
+      redirect_to(root_path) unless current_user?(@user)
+    end
+
 end
