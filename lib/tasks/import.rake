@@ -668,6 +668,27 @@ namespace :import do
 	end
 
 
+	desc "update hole details for specific courses"
+
+
+	task :update_courses => :environment do
+
+		c = Course.find_by_name("Jackson Park Golf Club")
+		changes = {2=>[[7, 3, 183], [8, 4, 374], [9, 4, 401], [11, 3, 163], [16, 4, 311], [17, 3, 174], [18, 4, 414]], 
+			       3=>[[7, 3, 178], [8, 4, 358], [9, 4, 394], [11, 3, 148], [16, 4, 293], [17, 3, 135], [18, 4, 383]]}
+
+		changes.each do |k,v|
+			v.each do |h|
+				hole = c.holes.where("tee_id = ? AND number = ?", k, h[0]).first
+				hole.par = h[1]
+				hole.distance = h[2]
+				hole.save
+			end
+		end     
+
+		puts "Whew! Finished..."
+
+	end
 
 end
 
@@ -677,4 +698,5 @@ end
 # $ bundle exec rake import:fairways
 # $ bundle exec rake import:tees
 # $ bundle exec rake import:courses
+# $ bundle exec rake import:update_courses
 # $ heroku run rake import:select_wa_courses
