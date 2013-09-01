@@ -16,7 +16,7 @@ class RoundsController < ApplicationController
     @course = Course.joins(:rounds).where(rounds: { course_id: @round.course_id }).first
     @round_summary = RoundSummary.find_by_round_id(@round.id)
 
-    @played_holes = PlayedHole.where(round_id: @round.id)
+    @played_holes = PlayedHole.where(round_id: @round.id).order("hole_id ASC")
 
     @table_stats = []
     @played_holes.each do |ph|
