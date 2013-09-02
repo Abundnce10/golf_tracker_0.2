@@ -6,7 +6,7 @@
 #  user_id          :integer
 #  course_id        :integer
 #  tee_id           :integer
-#  date_played      :date
+#  date_played      :datetime
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #  user_handicap_id :integer
@@ -28,5 +28,5 @@ class Round < ActiveRecord::Base
   belongs_to :user_handicap
 
   validates :user_id, :course_id, :tee_id, :presence => true
-  validates_date :date_played
+  #validates_date :date_played
 end

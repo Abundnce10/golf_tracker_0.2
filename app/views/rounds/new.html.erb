@@ -9,7 +9,6 @@
 
 			<%= f.hidden_field :course_id, value: @course.id %>
 			<%= f.hidden_field :user_handicap_id, value: @user_handicap_id %>
-			<%= f.hidden_field :date_played, value: @date_played %>
 
 			<%= f.label :tee_id, "Tees" %>
 			<%= f.select(:tee_id, @tees) %>
@@ -19,6 +18,9 @@
 
 			<%= f.label :starting_hole, "Starting Hole" %>
 			<%= f.select(:starting_hole, generate_starting_hole_array()) %>
+
+			<%= f.label :date_played, "Date Played" %>
+			<%= f.text_field :date_played, class: "datepicker", value: DateTime.now.strftime('%m/%d/%Y') %>
 
 			<%= f.submit "Begin Round", class: "btn btn-large btn-success" %>
 

@@ -40,6 +40,7 @@ class RoundsController < ApplicationController
     @round = Round.new
     @course = Course.find(params[:course_id])
     @user_handicap = UserHandicap.where("user_id = ?", current_user)
+
     if @user_handicap.empty?
       @user_handicap_id = 1
     else
@@ -57,19 +58,37 @@ class RoundsController < ApplicationController
       @times_of_day.push([t.time_of_day, t.id])
     end
 
-    @date_played = Time.new
-
   end
 
 
   def create
-    @round = current_user.rounds.build(params[:round])
+
+    @dp = Date.parse(params[:round][:date_played]) # mm/dd/yyyy
+    @time_of_day_id = params[:round][:time_of_day_id]
     
+    # Creat DateTime object
+    ## TimeOfDay - 1:morning, 2:afternoon, 3:evening
+    if @time_of_day_id == 1
+      @date_played = DateTime.new(@dp.year, @dp.month, @dp.day, 8, 0, 0)
+    elsif @time_of_day_id == 2
+      @date_played = DateTime.new(@dp.year, @dp.month, @dp.day, 12, 0, 0)
+    else
+      @date_played = DateTime.new(@dp.year, @dp.month, @dp.day, 16, 0, 0)
+    end
+
+    # Save Round object
+    @round = current_user.rounds.build(
+                course_id: params[:round][:course_id],
+                user_handicap_id: params[:round][:user_handicap_id],
+                tee_id: params[:round][:tee_id],
+                time_of_day_id: @time_of_day_id,
+                starting_hole: params[:round][:starting_hole],
+                date_played: @date_played)
+
+    # URL params
     @course_id = params[:round][:course_id]
     @tee_id = params[:round][:tee_id]
-    @time_of_day_id = params[:round][:time_of_day_id]
     @user_handicap_id = params[:round][:user_handicap_id]
-    @date_played = params[:round][:date_played]
     @hole_number = params[:round][:starting_hole]
 
     # Save Round
