@@ -1,18 +1,24 @@
 <h1>Listing rounds</h1>
 
-<table>
+<table class="table">
   <tr>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>User</th>
+    <th>Date Played</th>
+    <th>Score</th>
+    <th>Course/Edit</th>
+    <th>Destroy</th>
   </tr>
 
-<% @rounds.each do |round| %>
+<% @rounds_course_user.each do |rcu| %>
+
   <tr>
-    <td><%= link_to 'Show', round %></td>
-    <td><%= link_to 'Edit', edit_round_path(round) %></td>
-    <td><%= link_to 'Destroy', round, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= rcu[2].name%></td>
+    <td><%= rcu[0].date_played.to_date %></td>
+    <td>+3</td>
+    <td><%= link_to rcu[1].name, round_path(rcu[0].id) %></td>
+    <td><%= link_to 'Destroy', rcu[0], method: :delete, data: { confirm: 'Are you sure?'} %></td>
   </tr>
+
 <% end %>
 </table>
 
