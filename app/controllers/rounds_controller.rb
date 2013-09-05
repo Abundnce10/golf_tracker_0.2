@@ -58,7 +58,7 @@ class RoundsController < ApplicationController
 
   def create
 
-    @dp = Date.parse(params[:round][:date_played]) # mm/dd/yyyy
+    @dp = Date.strptime(params[:round][:date_played], '%m/%d/%Y') # mm/dd/yyyy
     @date_played = DateTime.new(@dp.year, @dp.day, @dp.month, params[:round][:hour_of_day].to_i, 0, 0)
     
     # Save Round object
