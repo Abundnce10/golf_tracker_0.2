@@ -10,17 +10,27 @@
 			<%= f.hidden_field :course_id, value: @course.id %>
 			<%= f.hidden_field :user_handicap_id, value: @user_handicap_id %>
 
-			<%= f.label :tee_id, "Tees" %>
-			<%= f.select(:tee_id, @tees) %>
+			<%= f.label :date_played, "Date Played" %>
+			<%= f.text_field :date_played, class: "datepicker", value: DateTime.now.strftime('%m/%d/%Y') %>
+			
+			<!-- Fake data -->
+			<label for="#">Level of Detail</label>
+			<select id="test" name="test" >
+				<option value="1">Simple (Free)</option>
+				<option value="2">Basic (Free)</option>
+				<option value="3" selected>Advanced (Free)</option>
+				<option value="4">Professional</option>
+			</select>
 
-			<%= f.label :time_of_day_id, "Tee Time" %>
-			<%= f.select(:time_of_day_id, @times_of_day) %>
-
+			<!-- CHANGE TO hour_of_day -->
+			<%= f.label :hour_of_day, "Tee Time" %>
+			<%= f.select(:hour_of_day, generate_hours_of_day(), selected: 11) %>
+			
 			<%= f.label :starting_hole, "Starting Hole" %>
 			<%= f.select(:starting_hole, generate_starting_hole_array()) %>
 
-			<%= f.label :date_played, "Date Played" %>
-			<%= f.text_field :date_played, class: "datepicker", value: DateTime.now.strftime('%m/%d/%Y') %>
+			<%= f.label :tee_id, "Tees" %>
+			<%= f.select(:tee_id, @tees, selected: 3) %>
 
 			<%= f.submit "Begin Round", class: "btn btn-large btn-success" %>
 

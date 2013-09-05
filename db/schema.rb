@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130902174628) do
+ActiveRecord::Schema.define(:version => 20130905014417) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "state_id"
@@ -203,8 +203,8 @@ ActiveRecord::Schema.define(:version => 20130902174628) do
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
     t.integer  "user_handicap_id"
-    t.integer  "time_of_day_id"
     t.integer  "starting_hole"
+    t.integer  "hour_of_day"
   end
 
   create_table "score_summaries", :force => true do |t|

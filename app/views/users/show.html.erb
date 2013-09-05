@@ -1,15 +1,92 @@
 <% provide(:title, @user.name) %>
 <div class="row">
+<h1>User Profile</h1>
+
+<!--
   <aside class="span3">
     <section>
       <h1>
-        <!--<%= gravatar_for @user %>-->
+        <% # gravatar_for @user %>
         <%= @user.name.titleize %>
       </h1>
     </section>
   </aside>
   <div class="span9">
 	<h2>History</h2>
+-->
+
+
+  <% @played_rounds.each do |played_round|  %>
+
+    <% rs = played_round[2] %>
+
+    <% if rs.total_strokes == 0 %>
+
+      <!-- Pass & Hide -->
+
+    <% else %>
+
+      <div class="span12" style="text-align:center;">
+        <p class="played_round">
+          <%= link_to played_round[1].name, round_path(played_round[0]) %>
+        </p>  
+        <p class="play_date">
+          <%= "  |  #{time_ago_in_words(played_round[0].created_at.in_time_zone("Pacific Time (US & Canada)"))} ago" %>
+        </p>
+      </div>
+
+
+      <div style="margin:2px 0 2px 0;"></div>
+
+      <table class="table table-condensed table-bordered round_show">
+        <thead>
+          <tr>
+            <th>Score</th>
+            <th>Total Strokes</th>
+            <th>Front 9</th>
+            <th>Back 9</th>
+            <th>Fairways Hit</th>
+            <th>GIRs</th>
+            <th>Putts</th>
+            <th>Front 9</th>
+            <th>Back 9</th>
+            <th>Scrambling %</th>
+            <th>Sand</th>
+            <th>O.B.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><%= rs.score_to_par %></th>
+            <th><%= rs.total_strokes %></th>
+            <th><%= rs.front_9_strokes %></th>
+            <th><%= rs.back_9_strokes %></th>
+            <th><%= "#{rs.fairways_hit} / #{rs.fairways_possible}" %></th>
+            <th><%= "#{rs.GIRs_hit} / #{rs.GIRs_possible}" %></th>
+            <th><%= rs.total_putts %></th>
+            <th><%= rs.front_9_putts %></th>
+            <th><%= rs.back_9_putts %></th>
+            <th><%= "#{rs.scrambles_successful} / #{rs.scrambles_possible}" %></th>
+            <th><%= rs.sand_shots %></th>
+            <th><%= rs.OBs %></th>
+          </tr> 
+        <tbody>
+      </table>
+
+
+
+    <% end %>
+  <% end %>
+
+
+
+
+
+
+
+
+
+
 	<% @played_rounds.each do |played_round| %>
   		<div class="row">
   			<div class="span9">
@@ -20,7 +97,6 @@
   					<%= "  |  #{time_ago_in_words(played_round[0].created_at.in_time_zone("Pacific Time (US & Canada)"))} ago" %>
   				</p>
   			</div>
-
   		</div>
   	<% end %>
   </div>

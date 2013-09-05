@@ -53,35 +53,20 @@ class RoundsController < ApplicationController
       @tees.push([t.tee_type, t.id])
     end
 
-    @times_of_day = []
-    TimeOfDay.all().each do |t|
-      @times_of_day.push([t.time_of_day, t.id])
-    end
-
   end
 
 
   def create
 
     @dp = Date.parse(params[:round][:date_played]) # mm/dd/yyyy
-    @time_of_day_id = params[:round][:time_of_day_id]
+    @date_played = DateTime.new(@dp.year, @dp.day, @dp.month, params[:round][:hour_of_day].to_i, 0, 0)
     
-    # Creat DateTime object
-    ## TimeOfDay - 1:morning, 2:afternoon, 3:evening
-    if @time_of_day_id == 1
-      @date_played = DateTime.new(@dp.year, @dp.month, @dp.day, 8, 0, 0)
-    elsif @time_of_day_id == 2
-      @date_played = DateTime.new(@dp.year, @dp.month, @dp.day, 12, 0, 0)
-    else
-      @date_played = DateTime.new(@dp.year, @dp.month, @dp.day, 16, 0, 0)
-    end
-
     # Save Round object
     @round = current_user.rounds.build(
                 course_id: params[:round][:course_id],
                 user_handicap_id: params[:round][:user_handicap_id],
                 tee_id: params[:round][:tee_id],
-                time_of_day_id: @time_of_day_id,
+                hour_of_day: params[:round][:hour_of_day],
                 starting_hole: params[:round][:starting_hole],
                 date_played: @date_played)
 

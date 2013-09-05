@@ -10,8 +10,8 @@
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #  user_handicap_id :integer
-#  time_of_day_id   :integer
 #  starting_hole    :integer
+#  hour_of_day      :integer
 #
 
 require 'spec_helper'

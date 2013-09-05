@@ -10,12 +10,12 @@
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #  user_handicap_id :integer
-#  time_of_day_id   :integer
 #  starting_hole    :integer
+#  hour_of_day      :integer
 #
 
 class Round < ActiveRecord::Base
-  attr_accessible :course_id, :date_played, :starting_hole, :tee_id, :time_of_day_id, :user_id, :user_handicap_id
+  attr_accessible :course_id, :date_played, :hour_of_day, :starting_hole, :tee_id, :user_id, :user_handicap_id
 
   has_one    :round_summary
   has_many   :hole_notes

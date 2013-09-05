@@ -6,10 +6,17 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @rounds = @user.rounds.order("date_played ASC")
+
+  
     @played_rounds = []
+    @round_summaries = []
+
     @rounds.each do |r|
-      @played_rounds.push([r, r.course])
+      @played_rounds.push([r, r.course, r.round_summary])
+      @round_summaries.push(r.round_summary)
     end
+
+
 
   end
 

@@ -12,6 +12,20 @@ module RoundsHelper
 		return @starting_arr
 	end
 
+	def generate_hours_of_day()
+		@hours_arr = []
+		(5..18).each do |i|
+			if i < 12
+				@hours_arr.push(["#{i}am", i])
+			elsif i == 12
+				@hours_arr.push(["#{i}pm", i])
+			else
+				@hours_arr.push(["#{i-12}pm", i])
+			end
+		end
+		return @hours_arr
+	end
+
 	def generate_score_title(score_change, par)
 		if par.to_i == 4
 			case score_change.to_i
