@@ -5,9 +5,9 @@ class RoundsController < ApplicationController
   def index
     @rounds_course_user = []
 
-    @rounds = Round.all
+    @rounds = Round.order("date_played ASC")
     @rounds.each do |r|
-      @rounds_course_user.push([r,r.course,r.user])
+      @rounds_course_user.push([r,r.course,r.user,r.round_summary,r.played_holes.length])
     end
 
     #@courses = Course.joins(:rounds).where(rounds: { user_id: current_user})
