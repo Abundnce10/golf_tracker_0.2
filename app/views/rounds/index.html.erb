@@ -7,7 +7,6 @@
     <th>Score</th>
     <th>Course/Edit</th>
     <th>Destroy</th>
-    <th>Button</th>
   </tr>
 
 <% @rounds_course_user.each do |rcu| %>
@@ -18,7 +17,6 @@
     <td>+3</td>
     <td><%= link_to rcu[1].name, round_path(rcu[0].id) %></td>
     <td><%= link_to 'Destroy', rcu[0], method: :delete, data: { confirm: 'Are you sure?'} %></td>
-    <td><%= button_to "delete", rcu[0], method: :delete, class: :destroy %></td>
   </tr>
 
 <% end %>
