@@ -5,7 +5,7 @@ class RoundsController < ApplicationController
   def index
     @rounds_course_user = []
 
-    @rounds = Round.order("date_played ASC")
+    @rounds = Round.order("date_played DESC")
     @rounds.each do |r|
       @rounds_course_user.push([r,r.course,r.user,r.round_summary,r.played_holes.length])
     end
@@ -24,7 +24,8 @@ class RoundsController < ApplicationController
 
     @table_stats = []
     @played_holes.each do |ph|
-      @table_stats.push([ph.hole.number, ph.hole.distance, ph.hole.par, ph.strokes, ph.putts, ph.score_change, ph.id, ph.fairway_id, ph.GIR])
+      @table_stats.push([ph, ph.hole])
+      #@table_stats.push([ph.hole.number, ph.hole.distance, ph.hole.par, ph.strokes, ph.putts, ph.score_change, ph.id, ph.fairway_id, ph.GIR])
     end
   end
 

@@ -16,7 +16,7 @@
 			<th>Total Strokes</th>
 			<th>Front 9</th>
 			<th>Back 9</th>
-			<th>Fairways Hit</th>
+			<th>Fairways</th>
 			<th>GIRs</th>
 			<th>Putts</th>
 			<th>Front 9</th>
@@ -28,7 +28,15 @@
 	</thead>
 	<tbody>
 		<tr>
-			<th><%= @round_summary.score_to_par %></th>
+			<th>
+				<% if @round_summary.score_to_par > 0 %>
+					<%= "+#{@round_summary.score_to_par}" %>
+				<% elsif @round_summary.score_to_par == 0 %>
+					<%= "Even" %>
+				<% else %>
+					<%= @round_summary.score_to_par %>
+				<% end %>
+			</th>
 			<th><%= @round_summary.total_strokes %></th>
 			<th><%= @round_summary.front_9_strokes %></th>
 			<th><%= @round_summary.back_9_strokes %></th>
@@ -60,57 +68,84 @@
 			<th>Hole</th>
 			<th>Distance</th>
 			<th>Par</th>
-			<th>Your Score</th>
+			<th>Score</th>
 			<th>Fairway</th>
 			<th>GIR</th>
 			<th>Putts</th>
+			<th>OB</th>
+			<th>Sand</th>
 			<th>Result</th>
-			<th>Round Total</th>
+			<th>Total</th>
 		</tr>
 	</thead>
 	<tbody>
 
 		<% @table_stats.each do |t| %>
 		
-			<% @round_score += t[5].to_i  %>
-			<% if t[5].to_i > 0 %>
+			<% @round_score += t[0].score_change.to_i  %>
+			<% if t[0].score_change.to_i > 0 %>
 				<tr class="error">
-			<% elsif t[5].to_i == 0 %>
+			<% elsif t[0].score_change.to_i == 0 %>
 				<tr class="warning">
 			<% else %>
 				<tr class="success">
 			<% end %>
 
-				<td><%= "Hole ##{t[0]}" %></td>
-				<td><%= "#{t[1]} yds" %></td>
-				<td><%= t[2] %></td>
-				<td><%= t[3] %></td>
-				<td><% if t[7].nil? %>
+				<td>
+					<%= link_to "Hole ##{t[1].number}", edit_played_hole_path(t[0].id) %>
+				</td>
+				<td><%= "#{t[1].distance} yds" %></td>
+				<td><%= t[1].par %></td>
+				<td><%= t[0].strokes %></td>
+				<td><% if t[0].fairway_id.nil? %>
 					<%= "-" %>
-					<% elsif t[7] == 1 %>
+					<% elsif t[0].fairway_id == 1 %>
 					<%= "Center" %>
-					<% elsif t[7] == 2 %>
+					<% elsif t[0].fairway_id == 2 %>
 					<%= "Left" %>
 					<% else %>
 					<%= "Right" %>
 					<% end %>
 				</td>
-				<td><% if t[8] == 0 %>
+				<td><% if t[0].GIR == 0 %>
 					<%= "No" %>
 					<% else %>
 					<%= "Yes" %>
 					<% end %>
 				</td>
-				<td><%= t[4] %></td>
-				<td><%= generate_score_title(t[5], t[2]) %></td>
-				<td><b><%= @round_score %></b></td>
+				<td><%= t[0].putts %></td>
+				<td>
+					<% if t[0].bunker == 0 %>
+						<%= "-" %>
+					<% else %>
+						<%= "X" %>
+					<% end %>
+				</td>
+				<td>
+					<% if t[0].OB == 0 %>
+						<%= "-" %>
+					<% else %>
+						<%= "X" %>
+					<% end %>
+				</td>
+				<td><%= generate_score_title(t[0].score_change, t[1].par) %></td>
+				<td><b>
+					<% if @round_score > 0 %>
+						<%= "+#{@round_score}" %>
+					<% elsif @round_score == 0 %>
+						<%= "Par" %>
+					<% else %>
+						<%= @round_score %>
+					<% end %>
+				</b></td>
 			</tr>
 
-			<% @last_hole_played = t[0].to_i %>
+			<% @last_hole_played = t[1].number.to_i %>
 		<% end %>
 
-		<% if @last_hole_played < @course.number_of_holes %>
-
+		<% if @course.number_of_holes.to_i == 9 and @last_hole_played == 9 %>
+		<% elsif @last_hole_played == 18 %>
+		<% else %>
 			<tr>
 				<td><%= link_to "Hole ##{@last_hole_played+1}", new_played_hole_path(round_id: @round.id, hole_number: @last_hole_played+1, tee_id: @round.tee_id, course_id: @round.course_id) %></td>
 				<td>-</td>
@@ -125,8 +160,6 @@
 
 	</tbody>
 </table>
-
-
 
 
 <br><br><br><br>
