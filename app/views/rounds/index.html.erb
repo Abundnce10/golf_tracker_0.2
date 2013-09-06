@@ -5,6 +5,7 @@
     <th>User</th>
     <th>Date Played</th>
     <th>Score</th>
+    <th>+/-</th>
     <th>Holes Played</th>
     <th>Course/Edit</th>
     <th>Destroy</th>
@@ -15,6 +16,7 @@
   <tr>
     <td><%= rcu[2].name%></td>
     <td><%= rcu[0].date_played.to_date %></td>
+    <td><%= rcu[3].total_strokes %></td>
     <td>
       <% if rcu[3].score_to_par > 0 %>
         <b><%= "+#{rcu[3].score_to_par}" %></b>
@@ -23,8 +25,24 @@
       <% else %>
         <b><%= "#{rcu[3].score_to_par}" %></b>
       <% end %>
+      
     </td>
-    <td><%= rcu[4] %></td>
+    <td>
+      <% if rcu[4] == 9 %>
+        <% if rcu[3].back_9_strokes == 0 %>
+          Front9
+        <% elsif rcu[3].front_9_strokes == 0 %>
+          Back9
+        <% else %>
+          Misc.
+        <% end %>
+      <% elsif rcu[4] == 18 %>
+        All18
+      <% else %>
+        Misc.
+      <% end %>
+
+    </td>
     <td><%= link_to rcu[1].name, round_path(rcu[0].id) %></td>
     <td><%= link_to 'Destroy', rcu[0], method: :delete, data: { confirm: 'Are you sure?'} %></td>
   </tr>

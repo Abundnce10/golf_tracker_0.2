@@ -25,7 +25,7 @@
 
 	<% if @hole.par > 3 %>
 	<%= f.label :fairway_id, "Fairway Result?" %>
-	<%= f.select(:fairway_id, options_for_select([['Center', 1], ['Right', 2], ['Left', 3]], selected: @played_hole.fairway_id)) %>
+	<%= f.select(:fairway_id, options_for_select([['Center', 1], ['Left', 2], ['Right', 3]], selected: @played_hole.fairway_id)) %>
 	<% end %>
 
 	<%= f.check_box(:bunker) %>

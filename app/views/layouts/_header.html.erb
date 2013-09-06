@@ -7,6 +7,7 @@
           <% if signed_in? %>
             <li><%= link_to "Play!", states_path %></li>
             <li><%= link_to "My Rounds", current_user %></li>
+            <li><%= link_to "All Rounds", rounds_path %></li>
             <li><%= link_to "Settings", edit_user_path(current_user) %></li>
             <li><%= link_to "Sign out", signout_path, method: "delete" %></li>
 
