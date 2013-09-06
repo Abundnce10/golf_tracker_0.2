@@ -20,12 +20,6 @@
 
     <% rs = played_round[2] %>
 
-    <% if rs.total_strokes == 0 %>
-
-      <!-- Pass & Hide -->
-
-    <% else %>
-
       <div class="span12" style="text-align:center;">
         <p class="played_round">
           <%= link_to played_round[1].name, round_path(played_round[0]) %>
@@ -34,7 +28,6 @@
           <%= "  |  #{time_ago_in_words(played_round[0].date_played.in_time_zone("Pacific Time (US & Canada)"))} ago" %>
         </p>
       </div>
-
 
       <div style="margin:2px 0 2px 0;"></div>
 
@@ -73,9 +66,6 @@
         <tbody>
       </table>
 
-
-
-    <% end %>
   <% end %>
 
   </div>
