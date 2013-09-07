@@ -6,6 +6,7 @@
   <%= f.hidden_field :tee_id, value: @tee_id %>
   <%= f.hidden_field :course_id, value: @course_id %>
   <%= f.hidden_field :hole_par, value: @hole.par %>
+  <%= f.hidden_field :GIR, value: 1 %>
 
   <% if @hole.par > 3 %>
     <%= f.label :fairway_id, "Fairway Result?" %>
@@ -17,9 +18,6 @@
 
   <%= f.label :putts, "How many putts?" %>
   <%= f.select :putts, options_for_select(generate_putts_array(5), selected: 1) %>
-
-  <%= f.label :GIR, "Green in Regulation?" %>
-  <%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>
 
   <br>
 
