@@ -16,7 +16,7 @@
   <%= f.select(:strokes, options_for_select(generate_strokes_array(@hole.par), selected: @hole.par)) %>
 
   <%= f.label :putts, "How many putts?" %>
-  <%= f.select(:putts, options_for_select(generate_putts_array(5), selected: 1)) %>
+  <%= f.select :putts, options_for_select(generate_putts_array(5), selected: 1), onclick: "calculateGIR()" %>
 
   <%= f.label :GIR, "Green in Regulation?" %>
   <%= f.select(:GIR, [['Yes', 1], ['No', 0]]) %>

@@ -147,7 +147,9 @@
 		<% elsif @last_hole_played == 18 %>
 		<% else %>
 			<tr>
-				<td><%= link_to "Hole ##{@last_hole_played+1}", new_played_hole_path(round_id: @round.id, hole_number: @last_hole_played+1, tee_id: @round.tee_id, course_id: @round.course_id) %></td>
+				<td><b>
+					<%= link_to "Hole ##{@last_hole_played+1}", new_played_hole_path(round_id: @round.id, hole_number: @last_hole_played+1, tee_id: @round.tee_id, course_id: @round.course_id) %>
+				</b></td>
 				<td>-</td>
 				<td>-</td>
 				<td>-</td>
