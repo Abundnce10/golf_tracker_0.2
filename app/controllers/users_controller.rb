@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @rounds = @user.rounds.order("date_played ASC")
+    @rounds = @user.rounds.order("date_played DESC")
 
   
     @played_rounds = []
