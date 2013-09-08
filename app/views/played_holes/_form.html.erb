@@ -6,7 +6,7 @@
   <%= f.hidden_field :tee_id, value: @tee_id %>
   <%= f.hidden_field :course_id, value: @course_id %>
   <%= f.hidden_field :hole_par, value: @hole.par %>
-  <%= f.hidden_field :GIR, value: 1 %>
+  <%= f.hidden_field :GIR, value: 0 %>
 
   <% if @hole.par > 3 %>
     <%= f.label :fairway_id, "Fairway Result?" %>
