@@ -3,17 +3,23 @@
 <h1><%= "Hole ##{@hole.number} - Par #{@hole.par} - #{@hole.distance} yards" %></h1>
 
 <div class="row">
+
+	<!--
 	<% if @hole.number == 1 %>
-		<div class="span3 offset5"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+		<div class="span3 offset5"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-success" %></div>
 		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large btn-warning" %></div>
 	<% elsif @hole.number == 18 %>
 		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large btn-warning" %></div>
-		<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+		<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-success" %></div>
 	<% else %>
 		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number-1}", "#", class: "btn btn-large btn-warning" %></div>
-		<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-danger" %></div>
+		<div class="span3 offset1"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-success" %></div>
 		<div class="span3 offset1"><%= link_to "Hole ##{@hole.number+1}", "#", class: "btn btn-large btn-warning" %></div>
 	<% end %>
+	-->
+
+	<div class="span3 offset5"><%= link_to "Round Overview", round_path(@round_id), class: "btn btn-large btn-success" %></div>
+
 </div>
 
 <br>
