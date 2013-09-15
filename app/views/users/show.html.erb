@@ -24,27 +24,36 @@
 
     <h3><%= "Par #{par}'s" %></h3>
 
-    <% @par_putt_counter = 0 %>
-    <% @par_putts = [] %>
-    <% @par_strokes = [] %>
-    <% @par_GIRs = [] %>
-    <% @par_3putts = 0 %>
-    <% @par_birdies = 0 %>
+    <% @par_counter = 0 %>
+    <% @putt_counter = 0 %>
+    <% @putts = [] %>
+    <% @strokes = [] %>
+    <% @GIRs = [] %>
+    <% @one_putts = 0 %>
+    <% @two_putts = 0 %>
+    <% @three_putts = 0 %>
+    <% @birdies = 0 %>
     <% @par_scrambles_success = 0 %>
     <% @par_scrambles_fail = 0 %>
+    <% @bird_to_bogey = 0 %>
 
     <% @played_holes.each do |arr| %>
       <% if arr[1].par == par %>
-        <% @par_putts.push(arr[0].putts) %>
-        <% @par_strokes.push(arr[0].strokes) %>
-        <% @par_GIRs.push(arr[0].GIR) %>
-        <% if arr[0].strokes == 2 %>
-          <% @par_birdies += 1 %>
+        <% @par_counter += 1 %>
+        <% @putts.push(arr[0].putts) %>
+        <% @strokes.push(arr[0].strokes) %>
+        <% @GIRs.push(arr[0].GIR) %>
+        <% if arr[0].strokes == (par - 1) %>
+          <% @birdies += 1 %>
         <% end %>
         <% if arr[0].putts > 0 %>
-          <% @par_putt_counter += 1 %>
-          <% if arr[0].putts >= 3 %>
-            <% @par_3putts += 1 %>
+          <% @putt_counter += 1 %>
+          <% if arr[0].putts == 2 %>
+            <% @two_putts += 1 %>
+          <% elsif arr[0].putts >= 3 %>
+            <% @three_putts += 1 %>
+          <% else %>
+            <% @one_putts += 1 %>
           <% end %>
         <% end %>
         <% if !arr[0].scramble.nil? %>
@@ -54,15 +63,24 @@
             <% @par_scrambles_success += 1%>
           <% end %>
         <% end %>
+        <% if arr[0].strokes > par and arr[0].GIR == 1 %>
+          <% @bird_to_bogey += 1 %>
+        <% end %>
       <% end %>
     <% end %>
 
-    <h4><%= "GIR Average: #{(@par_GIRs.reduce(:+).to_f / @par_GIRs.size).round(2)}" %></h4>
-    <h4><%= "Putting Average: #{(@par_putts.reduce(:+).to_f / @par_putts.size).round(2)}" %></h4>
-    <h4><%= "Stroke Average: #{(@par_strokes.reduce(:+).to_f / @par_strokes.size).round(2)}" %></h4>
-    <h4><%= "Scrambling%: #{@par_scrambles_success}/#{@par_scrambles_success+@par_scrambles_fail}" %></h4>
-    <h4><%= "Birdies: #{@par_birdies}/#{@par_putt_counter}" %></h4>
-    <h4><%= "3+ Putts: #{@par_3putts}/#{@par_putt_counter}" %></h4>
+    <h4><%= "Played: #{@par_counter}" %></h4>
+    <h4><%= "GIR Average: #{number_to_percentage((@GIRs.reduce(:+).to_f / @GIRs.size) * 100, precision: 1)}" %></h4>
+    <h4><%= "Stroke Avg.: #{((@strokes.reduce(:+).to_f / @strokes.size) - par).round(2)}" %></h4>
+    <h4><%= "Putting Avg.: #{(@putts.reduce(:+).to_f / @putts.size).round(2)}" %></h4>
+    <h4><%= "Putting Avg.: #{(@putts.reduce(:+).to_f / @putts.size).round(2)}" %></h4>
+    <h4><%= "1 Putts: #{@one_putts}/#{@putt_counter}" %></h4>
+    <h4><%= "2 Putts: #{@two_putts}/#{@putt_counter}" %></h4>
+    <h4><%= "3+ Putts: #{@three_putts}/#{@putt_counter}" %></h4>
+    <h4><%= "Scrambles: #{@par_scrambles_success}/#{@par_scrambles_success+@par_scrambles_fail}" %></h4>
+    <h4><%= "Birdies: #{@birdies}/#{@putt_counter}" %></h4>
+    <h4><%= "Bird-to-Bogey: #{@bird_to_bogey}/#{@GIRs.reduce(:+)}" %></h4>
+
 
   </div>
 
@@ -115,7 +133,15 @@
     </thead>
     <tbody>
       <tr>
-        <th><%= rs.score_to_par %></th>
+        <th>
+          <% if rs.score_to_par > 0 %>
+            <%= "+#{rs.score_to_par}" %>
+          <% elsif rs.score_to_par == 0 %>
+            <%= "Even" %>
+          <% else %>
+            <%= rs.score_to_par %>
+          <% end %>
+        </th>
         <th><%= rs.total_strokes %></th>
         <th><%= rs.front_9_strokes %></th>
         <th><%= rs.back_9_strokes %></th>
