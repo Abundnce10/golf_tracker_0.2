@@ -7,22 +7,27 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @rounds = @user.rounds.order("date_played DESC")
 
-  
     @played_rounds = []
     @round_summaries = []
+    @played_holes = []
 
     @rounds.each do |r|
       @played_rounds.push([r, r.course, r.round_summary])
       @round_summaries.push(r.round_summary)
+      @phs = r.played_holes
+      @phs.each do |ph|
+        @played_holes.push([ph, ph.hole])
+      end
     end
-
-
-
   end
+
+
 
   def new
     @user = User.new
   end
+
+
 
   def create
     @user = User.new(params[:user])
