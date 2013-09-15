@@ -1,6 +1,6 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-  <h1>User Profile</h1>
+  <h1><%= @user.name %></h1>
 
 <!--
   <aside class="span3">
@@ -16,53 +16,61 @@
 -->
 
 
-  <div>
+<div class="row">
 
-    <h3>Par 3's</h3>
+  <% [3,4,5].each do |par| %>
 
-    <% @par3_putt_counter = 0 %>
-    <% @par3_putts = [] %>
-    <% @par3_strokes = [] %>
-    <% @par3_GIRs = [] %>
-    <% @par3_3putts = 0 %>
-    <% @par3_birdies = 0 %>
-    <% @par3_scrambles_success = 0 %>
-    <% @par3_scrambles_fail = 0 %>
+  <div class="span4 by_par_module">
+
+    <h3><%= "Par #{par}'s" %></h3>
+
+    <% @par_putt_counter = 0 %>
+    <% @par_putts = [] %>
+    <% @par_strokes = [] %>
+    <% @par_GIRs = [] %>
+    <% @par_3putts = 0 %>
+    <% @par_birdies = 0 %>
+    <% @par_scrambles_success = 0 %>
+    <% @par_scrambles_fail = 0 %>
 
     <% @played_holes.each do |arr| %>
-      <% if arr[1].par == 3 %>
-        <% @par3_putts.push(arr[0].putts) %>
-        <% @par3_strokes.push(arr[0].strokes) %>
-        <% @par3_GIRs.push(arr[0].GIR) %>
+      <% if arr[1].par == par %>
+        <% @par_putts.push(arr[0].putts) %>
+        <% @par_strokes.push(arr[0].strokes) %>
+        <% @par_GIRs.push(arr[0].GIR) %>
         <% if arr[0].strokes == 2 %>
-          <% @par3_birdies += 1 %>
+          <% @par_birdies += 1 %>
         <% end %>
         <% if arr[0].putts > 0 %>
-          <% @par3_putt_counter += 1 %>
+          <% @par_putt_counter += 1 %>
           <% if arr[0].putts >= 3 %>
-            <% @par3_3putts += 1 %>
+            <% @par_3putts += 1 %>
           <% end %>
         <% end %>
         <% if !arr[0].scramble.nil? %>
           <% if arr[0].scramble == 0 %>
-            <% @par3_scrambles_fail += 1%>
+            <% @par_scrambles_fail += 1%>
           <% elsif arr[0].scramble == 1 %> 
-            <% @par3_scrambles_success += 1%>
+            <% @par_scrambles_success += 1%>
           <% end %>
         <% end %>
       <% end %>
     <% end %>
 
-    <h4><%= "GIR Average: #{(@par3_GIRs.reduce(:+).to_f / @par3_GIRs.size).round(2)}" %></h4>
-    <h4><%= "Putting Average: #{(@par3_putts.reduce(:+).to_f / @par3_putts.size).round(2)}" %></h4>
-    <h4><%= "Stroke Average: #{(@par3_strokes.reduce(:+).to_f / @par3_strokes.size).round(2)}" %></h4>
-    <h4><%= "Scrambling%: #{@par3_scrambles_success}/#{@par3_scrambles_success+@par3_scrambles_fail}" %></h4>
-    <h4><%= "Birdies: #{@par3_birdies}/#{@par3_putt_counter}" %></h4>
-    <h4><%= "3+ Putts: #{@par3_3putts}/#{@par3_putt_counter}" %></h4>
+    <h4><%= "GIR Average: #{(@par_GIRs.reduce(:+).to_f / @par_GIRs.size).round(2)}" %></h4>
+    <h4><%= "Putting Average: #{(@par_putts.reduce(:+).to_f / @par_putts.size).round(2)}" %></h4>
+    <h4><%= "Stroke Average: #{(@par_strokes.reduce(:+).to_f / @par_strokes.size).round(2)}" %></h4>
+    <h4><%= "Scrambling%: #{@par_scrambles_success}/#{@par_scrambles_success+@par_scrambles_fail}" %></h4>
+    <h4><%= "Birdies: #{@par_birdies}/#{@par_putt_counter}" %></h4>
+    <h4><%= "3+ Putts: #{@par_3putts}/#{@par_putt_counter}" %></h4>
 
   </div>
 
+  <% end %>
 
+</div>
+
+<br><hr>
 
 
 
