@@ -71,9 +71,9 @@
 
     <h4><%= "Played: #{@par_counter}" %></h4>
     <h4><%= "GIR Average: #{number_to_percentage((@GIRs.reduce(:+).to_f / @GIRs.size) * 100, precision: 1)}" %></h4>
-    <h4><%= "Stroke Avg.: #{((@strokes.reduce(:+).to_f / @strokes.size) - par).round(2)}" %></h4>
-    <h4><%= "Putting Avg.: #{(@putts.reduce(:+).to_f / @putts.size).round(2)}" %></h4>
-    <h4><%= "Putting Avg.: #{(@putts.reduce(:+).to_f / @putts.size).round(2)}" %></h4>
+    <h4><%= "Stroke Avg.: #{((@strokes.reduce(:+).to_f / @strokes.size) - par).round(1)}" %></h4>
+    <h4><%= "Putting Avg: #{(@putts.reduce(:+).to_f / @putts.size).round(1)}" %></h4>
+    <h4><%= "Putting Avg: #{(@putts.reduce(:+).to_f / @putts.size).round(1)}" %></h4>
     <h4><%= "1 Putts: #{@one_putts}/#{@putt_counter}" %></h4>
     <h4><%= "2 Putts: #{@two_putts}/#{@putt_counter}" %></h4>
     <h4><%= "3+ Putts: #{@three_putts}/#{@putt_counter}" %></h4>
