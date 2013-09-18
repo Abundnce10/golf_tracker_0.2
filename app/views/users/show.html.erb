@@ -24,6 +24,7 @@
 
     <h3><%= "Par #{par}'s" %></h3>
 
+    <% @score_counter = 0 %>
     <% @par_counter = 0 %>
     <% @putt_counter = 0 %>
     <% @putts = [] %>
@@ -39,6 +40,7 @@
 
     <% @played_holes.each do |arr| %>
       <% if arr[1].par == par %>
+        <% @score_counter += arr[0].score_change %>
         <% @par_counter += 1 %>
         <% @putts.push(arr[0].putts) %>
         <% @strokes.push(arr[0].strokes) %>
@@ -70,6 +72,15 @@
     <% end %>
 
     <h4><%= "Played: #{@par_counter}" %></h4>
+    <h4>
+      <% if @score_counter > 0 %>
+        <%= "Overall Score: +#{@score_counter}" %>
+      <% elsif @score_counter == 0 %>
+        <%= "Overall Score: EVEN" %>
+      <% else %>
+        <%= "Overall Score: #{@score_counter}" %>
+      <% end %>
+    </h4>
     <h4><%= "GIR Average: #{number_to_percentage((@GIRs.reduce(:+).to_f / @GIRs.size) * 100, precision: 1)}" %></h4>
     <h4><%= "Stroke Avg.: #{((@strokes.reduce(:+).to_f / @strokes.size) - par).round(1)}" %></h4>
     <h4><%= "Putting Avg: #{(@putts.reduce(:+).to_f / @putts.size).round(1)}" %></h4>
