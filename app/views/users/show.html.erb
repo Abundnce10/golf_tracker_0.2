@@ -37,6 +37,7 @@
     <% @par_scrambles_success = 0 %>
     <% @par_scrambles_fail = 0 %>
     <% @bird_to_bogey = 0 %>
+    <% @drives = [] %>
 
     <% @played_holes.each do |arr| %>
       <% if arr[1].par == par %>
@@ -68,6 +69,9 @@
         <% if arr[0].strokes > par and arr[0].GIR == 1 %>
           <% @bird_to_bogey += 1 %>
         <% end %>
+        <% if arr[1].par == 4 or arr[1].par == 5 %>
+          <% @drives.push(arr[0].fairway_id) %>
+        <% end %>
       <% end %>
     <% end %>
 
@@ -91,7 +95,7 @@
     <h4><%= "Scrambles: #{@par_scrambles_success}/#{@par_scrambles_success+@par_scrambles_fail}" %></h4>
     <h4><%= "Birdies: #{@birdies}/#{@putt_counter}" %></h4>
     <h4><%= "Bird-to-Bogey: #{@bird_to_bogey}/#{@GIRs.reduce(:+)}" %></h4>
-
+    <%= @drives.inspect %>
 
   </div>
 
